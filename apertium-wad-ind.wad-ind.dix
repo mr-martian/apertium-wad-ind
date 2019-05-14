@@ -7,6 +7,7 @@
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
+    <sdef n="v"               c="Verb"/>
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
@@ -81,6 +82,26 @@
     <sdef n="acr"             c="Acronym"/>
     <sdef n="unc"             c="Uncountable"/>
 
+    <sdef n="subst"           c="???"/>
+    <sdef n="prt"             c="???"/>
+    <sdef n="pe-an"           c="???"/>
+    <sdef n="san"             c="???"/>
+    <sdef n="kan"             c="???"/>
+    <sdef n="peN"             c="???"/>
+    <sdef n="si"              c="???"/>
+    <sdef n="ber"             c="???"/>
+    <sdef n="cnj"             c="???"/>
+    <sdef n="per-an"          c="???"/>
+    <sdef n="peN-an"          c="???"/>
+    <sdef n="red"             c="???"/>
+    <sdef n="actio"           c="???"/>
+    <sdef n="tn"              c="???"/>
+    <sdef n="cmp"             c="???"/>
+    <sdef n="loc"             c="???"/>
+    <sdef n="se"              c="???"/>
+    <sdef n="ter"             c="???"/>
+    <sdef n="ke-an"           c="???"/>
+
     <sdef n="num"             c="Numeral"/>
     <sdef n="sent"            c="Sentence end"/>
     <sdef n="cm"              c="Comma"/>
@@ -97,7 +118,1431 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nini<s n="dem"/></l><r>ini<s n="det"/><s n="dem"/></r></p></e>
+      <!-- <e><p><l>ambesie<s n="adj"/></l><r>enak<s n="adj"/><b/>sekali<s n="adv"/></r></p></e> -->
+      <e><p><l>anato<s n="adj"/></l><r>hanya<s n="adv"/></r></p></e>
+      <e><p><l>aniona<s n="adj"/></l><r>manis<s n="adj"/></r></p></e>
+      <e><p><l>arioi<s n="adj"/></l><r>panjang<s n="adj"/></r></p></e>
+      <e><p><l>asisi<s n="adj"/></l><r>diam<s n="vblex"/></r></p></e>
+      <e><p><l>ate<s n="adj"/></l><r>bagus<s n="adj"/></r></p></e>
+      <e><p><l>ate<s n="adj"/></l><r>cantik<s n="adj"/></r></p></e>
+      <e><p><l>avori<s n="adj"/></l><r>baru<s n="adj"/></r></p></e>
+      <e><p><l>baba<s n="adj"/></l><r>besar<s n="adj"/></r></p></e>
+      <e><p><l>baba<s n="adj"/></l><r>lembar<s n="n"/></r></p></e>
+      <!-- <e><p><l>baba<s n="adj"/></l><r>orang<s n="n"/><b/>tua<s n="adj"/></r></p></e> -->
+      <e><p><l>batoyar<s n="adj"/></l><r>tebal<s n="adj"/></r></p></e>
+      <e><p><l>borai<s n="adj"/></l><r>banyak<s n="adj"/></r></p></e>
+      <e><p><l>diadi<s n="adj"/></l><r>jadi<s n="cnjadv"/></r></p></e>
+      <e><p><l>diru<s n="adj"/></l><r>gelap<s n="adj"/></r></p></e>
+      <e><p><l>kake<s n="adj"/></l><r>hijau<s n="n"/></r></p></e>
+      <e><p><l>kake<s n="adj"/></l><r>biru<s n="n"/></r></p></e>
+      <e><p><l>karakuai<s n="adj"/></l><r>*kras</r></p></e>
+      <e><p><l>karakuai<s n="adj"/></l><r>kasar<s n="adj"/></r></p></e>
+      <e><p><l>karakuai<s n="adj"/></l><r>kenyal<s n="adj"/></r></p></e>
+      <!-- <e><p><l>kasau<s n="adj"/></l><r>agak<s n="n"/><b/>jauh<s n="adj"/></r></p></e> -->
+      <e><p><l>kasau<s n="adj"/></l><r>celah<s n="n"/></r></p></e>
+      <e><p><l>katu<s n="adj"/></l><r>kecil<s n="adj"/></r></p></e>
+      <e><p><l>kawawaru<s n="adj"/></l><r>*pamalas</r></p></e>
+      <e><p><l>kawawaru<s n="adj"/></l><r>*bermalas</r></p></e>
+      <e><p><l>komamasarei<s n="adj"/></l><r>lucu<s n="adj"/></r></p></e>
+      <e><p><l>komok<s n="adj"/></l><r>tawar<s n="adj"/></r></p></e>
+      <!-- <e><p><l>komok<s n="adj"/></l><r>tidak<s n="adv"/><b/>enak<s n="adj"/></r></p></e> -->
+      <e><p><l>kotar<s n="adj"/></l><r>pas<s n="n"/></r></p></e>
+      <e><p><l>kotar<s n="adj"/></l><r>sesak<s n="adj"/></r></p></e>
+      <e><p><l>kotar<s n="adj"/></l><r>sempit<s n="adj"/></r></p></e>
+      <e><p><l>kumwar<s n="adj"/></l><r>gelap<s n="adj"/></r></p></e>
+      <e><p><l>kumwar<s n="adj"/></l><r>hitam<s n="n"/></r></p></e>
+      <e><p><l>kuya<s n="adj"/></l><r>ribut<s n="adj"/></r></p></e>
+      <e><p><l>mabat<s n="adj"/></l><r>berat<s n="adj"/></r></p></e>
+      <e><p><l>mamara<s n="adj"/></l><r>bersih<s n="adj"/></r></p></e>
+      <e><p><l>mamara<s n="adj"/></l><r>jernih<s n="adj"/></r></p></e>
+      <e><p><l>mamara<s n="adj"/></l><r>putih<s n="n"/></r></p></e>
+      <e><p><l>mani<s n="adj"/></l><r>sombong<s n="adj"/></r></p></e>
+      <e><p><l>manis<s n="adj"/></l><r>tipis<s n="adj"/></r></p></e>
+      <e><p><l>manis<s n="adj"/></l><r>halus<s n="adj"/></r></p></e>
+      <e><p><l>maraba<s n="adj"/></l><r>lobang<s n="n"/></r></p></e>
+      <e><p><l>maraba<s n="adj"/></l><r>robek<s n="adj"/></r></p></e>
+      <e><p><l>marai<s n="adj"/></l><r>masak<s n="adj"/></r></p></e>
+      <e><p><l>marai<s n="adj"/></l><r>matang<s n="adj"/></r></p></e>
+      <e><p><l>marandewa<s n="adj"/></l><r>subur<s n="adj"/></r></p></e>
+      <e><p><l>mararaba<s n="adj"/></l><r>robek<s n="adj"/></r></p></e>
+      <!-- <e><p><l>marawas<s n="adj"/></l><r>cantik<s n="adj"/><b/>sekali<s n="adv"/></r></p></e> -->
+      <e><p><l>mariat<s n="adj"/></l><r>lembut<s n="adj"/></r></p></e>
+      <e><p><l>mariera<s n="adj"/></l><r>*lembek</r></p></e>
+      <e><p><l>marin<s n="adj"/></l><r>teduh<s n="adj"/></r></p></e>
+      <e><p><l>maruwasi va<s n="adj"/></l><r>*loyo</r></p></e>
+      <e><p><l>mas<s n="adj"/></l><r>panas<s n="adj"/></r></p></e>
+      <e><p><l>mas<s n="adj"/></l><r>ganas<s n="adj"/></r></p></e>
+      <e><p><l>mas bari<s n="adj"/></l><r>kejam<s n="adj"/></r></p></e>
+      <e><p><l>masabu<s n="adj"/></l><r>pecah<s n="vblex"/></r></p></e>
+      <e><p><l>masabu<s n="adj"/></l><r>hancur<s n="adj"/></r></p></e>
+      <e><p><l>masasabu<s n="adj"/></l><r>pecah<s n="vblex"/></r></p></e>
+      <e><p><l>masasabu<s n="adj"/></l><r>hancur<s n="adj"/></r></p></e>
+      <e><p><l>masasiepar<s n="adj"/></l><r>*terhambur</r></p></e>
+      <e><p><l>masi tutira<s n="adj"/></l><r>seperti<s n="pr"/></r></p></e>
+      <e><p><l>masi tutira<s n="adj"/></l><r>pas<s n="n"/></r></p></e>
+      <e><p><l>masiei<s n="adj"/></l><r>tajam<s n="adj"/></r></p></e>
+      <e><p><l>masise<s n="adj"/></l><r>seperti<s n="pr"/></r></p></e>
+      <e><p><l>matu<s n="adj"/></l><r>tua<s n="adj"/></r></p></e>
+      <e><p><l>mei<s n="adj"/></l><r>tarik<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>meta<s n="adj"/></l><r>hitam<s n="n"/></r></p></e>
+      <e><p><l>mirarebis<s n="adj"/></l><r>licin<s n="adj"/></r></p></e>
+      <e><p><l>mua<s n="adj"/></l><r>laki<s n="n"/><s n="red"/><s n="pl"/></r></p></e>
+      <e><p><l>mumuya<s n="adj"/></l><r>bisu<s n="adj"/></r></p></e>
+      <e><p><l>muyanau<s n="adj"/></l><r>sombong<s n="adj"/></r></p></e>
+      <e><p><l>nganggau<s n="adj"/></l><r>bingung<s n="adj"/></r></p></e>
+      <e><p><l>nukwai<s n="adj"/></l><r>kuning<s n="n"/></r></p></e>
+      <!-- <e><p><l>onate<s n="adj"/></l><r>murah<s n="adj"/><b/>hati<s n="n"/></r></p></e> -->
+      <e><p><l>onu<s n="adj"/></l><r>penuh<s n="adj"/></r></p></e>
+      <!-- <e><p><l>paname<s n="adj"/></l><r>halus<s n="adj"/><b/>sekali<s n="adv"/></r></p></e> -->
+      <!-- <e><p><l>pau<s n="adj"/></l><r>banyak<s n="adj"/><b/>sekali<s n="adv"/></r></p></e> -->
+      <e><p><l>paya<s n="adj"/></l><r>kuat<s n="adj"/></r></p></e>
+      <e><p><l>pepeya<s n="adj"/></l><r>diam-diam<s n="adv"/></r></p></e>
+      <e><p><l>piat<s n="adj"/></l><r>mentah<s n="adj"/></r></p></e>
+      <e><p><l>pimasa<s n="adj"/></l><r>besar<s n="adj"/></r></p></e>
+      <e><p><l>pisavir<s n="adj"/></l><r>gila<s n="adj"/></r></p></e>
+      <e><p><l>pota<s n="adj"/></l><r>sakit<s n="adj"/></r></p></e>
+      <e><p><l>pumat<s n="adj"/></l><r>tumpul<s n="adj"/></r></p></e>
+      <e><p><l>rariat<s n="adj"/></l><r>kotor<s n="adj"/></r></p></e>
+      <e><p><l>rauparare<s n="adj"/></l><r>haus<s n="adj"/></r></p></e>
+      <e><p><l>rawana<s n="adj"/></l><r>biru<s n="n"/></r></p></e>
+      <e><p><l>remo<s n="adj"/></l><r>*mengantuk</r></p></e>
+      <e><p><l>retena<s n="adj"/></l><r>pertama<s n="num"/><s n="ord"/></r></p></e>
+      <e><p><l>ribuai<s n="adj"/></l><r>ramah<s n="adj"/></r></p></e>
+      <e><p><l>ribuai<s n="adj"/></l><r>baik<s n="adj"/></r></p></e>
+      <e><p><l>sair<s n="adj"/></l><r>*bauh</r></p></e>
+      <e><p><l>sair<s n="adj"/></l><r>busuk<s n="adj"/></r></p></e>
+      <e><p><l>saire<s n="adj"/></l><r>*bauh</r></p></e>
+      <e><p><l>saire<s n="adj"/></l><r>busuk<s n="adj"/></r></p></e>
+      <e><p><l>sanaia<s n="adj"/></l><r>kering<s n="adj"/></r></p></e>
+      <e><p><l>sanandika<s n="adj"/></l><r>sombong<s n="adj"/></r></p></e>
+      <e><p><l>sane nei kariria<s n="adj"/></l><r>sedih<s n="n"/></r></p></e>
+      <e><p><l>sane sasera<s n="adj"/></l><r>bimbang<s n="adj"/></r></p></e>
+      <!-- <e><p><l>sane soi<s n="adj"/></l><r>duka<s n="adj"/><s n="actio"/><s n="ber"/><b/>cita<s n="n"/></r></p></e> -->
+      <e><p><l>sarap<s n="adj"/></l><r>tarik<s n="vblex"/></r></p></e>
+      <e><p><l>sasuat<s n="adj"/></l><r>*pedis</r></p></e>
+      <e><p><l>sava<s n="adj"/></l><r>murah<s n="adj"/></r></p></e>
+      <e><p><l>savavir<s n="adj"/></l><r>sombong<s n="adj"/></r></p></e>
+      <!-- <e><p><l>savavir<s n="adj"/></l><r>tidak<s n="adv"/><b/>tenang<s n="adj"/></r></p></e> -->
+      <e><p><l>seseya<s n="adj"/></l><r>sunyi<s n="adj"/></r></p></e>
+      <e><p><l>siasa<s n="adj"/></l><r>asam<s n="n"/></r></p></e>
+      <!-- <e><p><l>sieti<s n="adj"/></l><r>khusus<s n="adj"/><b/>untuk<s n="pr"/></r></p></e> -->
+      <e><p><l>sisuat<s n="adj"/></l><r>*pedis</r></p></e>
+      <e><p><l>sren<s n="adj"/></l><r>baik<s n="adj"/></r></p></e>
+      <e><p><l>tanam<s n="adj"/></l><r>pendek<s n="adj"/></r></p></e>
+      <e><p><l>tapisa<s n="adj"/></l><r>ringan<s n="adj"/></r></p></e>
+      <e><p><l>tasiepar<s n="adj"/></l><r>luas<s n="adj"/></r></p></e>
+      <e><p><l>tetap<s n="adj"/></l><r>rajin<s n="adj"/></r></p></e>
+      <e><p><l>tindia<s n="adj"/></l><r>lurus<s n="adj"/></r></p></e>
+      <e><p><l>tindia<s n="adj"/></l><r>baik<s n="adj"/></r></p></e>
+      <e><p><l>tirioi<s n="adj"/></l><r>tinggi<s n="adj"/></r></p></e>
+      <e><p><l>titieit<s n="adj"/></l><r>pahit<s n="adj"/></r></p></e>
+      <e><p><l>tura<s n="adj"/></l><r>dampar<s n="vblex"/><s n="ter"/></r></p></e>
+      <e><p><l>tutira<s n="adj"/></l><r>seutuhnya<s n="adv"/></r></p></e>
+      <e><p><l>tutira<s n="adj"/></l><r>*antero</r></p></e>
+      <e><p><l>urar<s n="adj"/></l><r>merah<s n="n"/></r></p></e>
+      <e><p><l>vara kare<s n="adj"/></l><r>lepas<s n="adj"/></r></p></e>
+      <e><p><l>vata<s n="adj"/></l><r>betul<s n="adj"/></r></p></e>
+      <e><p><l>vata<s n="adj"/></l><r>bagus<s n="adj"/></r></p></e>
+      <e><p><l>vatatar<s n="adj"/></l><r>nakal<s n="adj"/></r></p></e>
+      <e><p><l>vavi<s n="adj"/></l><r>perempuan<s n="n"/></r></p></e>
+      <e><p><l>vavoru<s n="adj"/></l><r>segar<s n="adj"/></r></p></e>
+      <e><p><l>vavoru<s n="adj"/></l><r>mudah<s n="adj"/></r></p></e>
+      <e><p><l>vavoru<s n="adj"/></l><r>baru<s n="adj"/></r></p></e>
+      <e><p><l>vawisi<s n="adj"/></l><r>lapar<s n="adj"/></r></p></e>
+      <!-- <e><p><l>vawu<s n="adj"/></l><r>warna<s n="n"/><b/>coklat<s n="n"/></r></p></e> -->
+      <e><p><l>vebasa<s n="adj"/></l><r>basah<s n="adj"/></r></p></e>
+      <e><p><l>vemarisiani<s n="adj"/></l><r>pedas<s n="n"/></r></p></e>
+      <e><p><l>vemarisiani<s n="adj"/></l><r>*pedis</r></p></e>
+      <e><p><l>vepui<s n="adj"/></l><r>bungsu<s n="n"/></r></p></e>
+      <e><p><l>verariate<s n="adj"/></l><r>kotor<s n="adj"/></r></p></e>
+      <e><p><l>vesasie<s n="adj"/></l><r>bagus<s n="adj"/></r></p></e>
+      <e><p><l>vesasie<s n="adj"/></l><r>cantik<s n="adj"/></r></p></e>
+      <e><p><l>vetatar<s n="adj"/></l><r>dosa<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <!-- <e><p><l>vevisa<s n="adj"/></l><r>tua<s n="adj"/><b/>(<s n="lpar"/></r></p></e> -->
+      <!-- <e><p><l>vevisa<s n="adj"/></l><r>sudah<s n="adv"/><b/>jadi<s n="cnjadv"/><b/>nenek<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>via<s n="adj"/></l><r>harga<s n="n"/><b/>turun<s n="vblex"/></r></p></e> -->
+      <e><p><l>voru<s n="adj"/></l><r>mati<s n="vblex"/></r></p></e>
+      <e><p><l>voru<s n="adj"/></l><r>tinggal<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>vura<s n="adj"/></l><r>semua<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>vura<s n="adj"/></l><r>tiap<s n="adj"/><s n="se"/></r></p></e>
+      <e><p><l>vusa<s n="adj"/></l><r>putih<s n="n"/></r></p></e>
+      <e><p><l>wasia<s n="adj"/></l><r>semua<s n="prn"/><s n="tn"/></r></p></e>
+      <!-- <e><p><l>rawave<s n="pr"/></l><r>ke<s n="pr"/><b/>bawah<s n="n"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>susa<s n="pr"/></l><r>dalam<s n="pr"/></r></p></e>
+      <!-- <e><p><l>ariri<s n="adv"/></l><r>seperti<s n="pr"/><b/>itu<s n="det"/><s n="dem"/></r></p></e> -->
+      <!-- <e><p><l>ariri<s n="adv"/></l><r>begitu<s n="adv"/><b/>sudah<s n="adv"/></r></p></e> -->
+      <e><p><l>awori<s n="adv"/></l><r>lalu<s n="cnjcoo"/></r></p></e>
+      <e><p><l>aya<s n="adv"/></l><r>belum<s n="adv"/></r></p></e>
+      <e><p><l>diadi va<s n="adv"/></l><r>sekali<s n="adv"/></r></p></e>
+      <!-- <e><p><l>diuwa<s n="adv"/></l><r>ke<s n="pr"/><b/>bawah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>dorewa<s n="adv"/></l><r>ke<s n="pr"/><b/>darat<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>doriwa<s n="adv"/></l><r>ke<s n="pr"/><b/>luar<s n="n"/></r></p></e> -->
+      <e><p><l>katuerine<s n="adv"/></l><r>sedang<s n="adv"/></r></p></e>
+      <e><p><l>katuerine<s n="adv"/></l><r>tadi<s n="adv"/></r></p></e>
+      <e><p><l>kausapa<s n="adv"/></l><r>besok<s n="adv"/></r></p></e>
+      <e><p><l>kausapa<s n="adv"/></l><r>pagi<s n="n"/></r></p></e>
+      <e><p><l>kavori<s n="adv"/></l><r>baru<s n="adj"/></r></p></e>
+      <e><p><l>kavori<s n="adv"/></l><r>sekarang<s n="adv"/></r></p></e>
+      <e><p><l>kavori<s n="adv"/></l><r>nanti<s n="adv"/></r></p></e>
+      <e><p><l>kota<s n="adv"/></l><r>juga<s n="adv"/></r></p></e>
+      <!-- <e><p><l>ma<s n="adv"/></l><r>ke<s n="pr"/><b/>sini<s n="prn"/><s n="loc"/></r></p></e> -->
+      <!-- <e><p><l>mesu<s n="adv"/></l><r>ke<s n="pr"/><b/>bawah<s n="n"/></r></p></e> -->
+      <e><p><l>moyar<s n="adv"/></l><r>jangan<s n="adv"/></r></p></e>
+      <!-- <e><p><l>moyar<s n="adv"/></l><r>tidak<s n="adv"/><b/>boleh<s n="adv"/></r></p></e> -->
+      <e><p><l>nanaria<s n="adv"/></l><r>pelan<s n="adj"/></r></p></e>
+      <e><p><l>nani<s n="adv"/></l><r>nanti<s n="adv"/></r></p></e>
+      <e><p><l>okatuma<s n="adv"/></l><r>*sebentar</r></p></e>
+      <!-- <e><p><l>pana<s n="adv"/></l><r>sedang<s n="adv"/><b/>mulai<s n="vblex"/></r></p></e> -->
+      <e><p><l>pana<s n="adv"/></l><r>langsung<s n="adv"/></r></p></e>
+      <e><p><l>papo<s n="adv"/></l><r>dulu<s n="adv"/></r></p></e>
+      <e><p><l>papo<s n="adv"/></l><r>depan<s n="n"/></r></p></e>
+      <!-- <e><p><l>ra<s n="adv"/></l><r>ke<s n="pr"/><b/>sana<s n="prn"/><s n="loc"/></r></p></e> -->
+      <!-- <e><p><l>raria nini<s n="adv"/></l><r>hari<s n="n"/><b/>ini<s n="det"/><s n="dem"/></r></p></e> -->
+      <!-- <e><p><l>raria pesi<s n="adv"/></l><r>satu<s n="num"/><b/>saat<s n="cnjsub"/></r></p></e> -->
+      <!-- <e><p><l>rava<s n="adv"/></l><r>ke<s n="pr"/><b/>bawah<s n="n"/></r></p></e> -->
+      <e><p><l>ravinie wana<s n="adv"/></l><r>kemarin<s n="adv"/></r></p></e>
+      <e><p><l>rawai<s n="adv"/></l><r>lebih<s n="adv"/></r></p></e>
+      <!-- <e><p><l>rusara<s n="adv"/></l><r>ulang<s n="vblex"/><b/>kali<s n="n"/></r></p></e> -->
+      <e><p><l>saira<s n="adv"/></l><r>cepat<s n="adj"/></r></p></e>
+      <e><p><l>sara<s n="adv"/></l><r>kiri<s n="n"/></r></p></e>
+      <e><p><l>sasari<s n="adv"/></l><r>besok<s n="adv"/></r></p></e>
+      <!-- <e><p><l>sisande<s n="adv"/></l><r>panjang<s n="adj"/><s n="se"/><b/>garis<s n="n"/><b/>pantai<s n="n"/></r></p></e> -->
+      <e><p><l>tape<s n="adv"/></l><r>begitu<s n="adv"/></r></p></e>
+      <!-- <e><p><l>tapena<s n="adv"/></l><r>begitu<s n="adv"/><b/>sudah<s n="adv"/></r></p></e> -->
+      <!-- <e><p><l>tayana<s n="adv"/></l><r>itu<s n="det"/><s n="dem"/><b/>sudah<s n="adv"/></r></p></e> -->
+      <e><p><l>tomanau<s n="adv"/></l><r>sudah<s n="adv"/></r></p></e>
+      <e><p><l>toro<s n="adv"/></l><r>sekali<s n="adv"/></r></p></e>
+      <!-- <e><p><l>varami<s n="adv"/></l><r>belum<s n="adv"/><b/>pernah<s n="adv"/></r></p></e> -->
+      <!-- <e><p><l>varare<s n="adv"/></l><r>di<s n="pr"/><b/>samping<s n="n"/><b/>rumah<s n="n"/></r></p></e> -->
+      <e><p><l>vata<s n="adv"/></l><r>kanan<s n="n"/></r></p></e>
+      <e><p><l>venasia<s n="adv"/></l><r>saja<s n="adv"/></r></p></e>
+      <e><p><l>vesiri<s n="adv"/></l><r>sekali<s n="adv"/></r></p></e>
+      <e><p><l>vesisiai<s n="adv"/></l><r>jarang<s n="adv"/></r></p></e>
+      <e><p><l>viove<s n="adv"/></l><r>bagi<s n="pr"/></r></p></e>
+      <e><p><l>vo<s n="adv"/></l><r>sekali<s n="adv"/></r></p></e>
+      <e><p><l>woroi<s n="adv"/></l><r>lama<s n="adj"/></r></p></e>
+      <e><p><l>ya<s n="adv"/></l><r>lagi<s n="adv"/></r></p></e>
+      <e><p><l>yanama<s n="adv"/></l><r>terus<s n="vblex"/></r></p></e>
+      <e><p><l>yanama<s n="adv"/></l><r>lalu<s n="cnjcoo"/></r></p></e>
+      <e><p><l>amamo<s n="cmp"/></l><r>supaya<s n="cnjsub"/></r></p></e>
+      <e><p><l>ave<s n="cmp"/></l><r>supaya<s n="cnjsub"/></r></p></e>
+      <!-- <e><p><l>ave<s n="cmp"/></l><r>buat<s n="vblex"/><b/>apa<s n="prn"/><s n="itg"/></r></p></e> -->
+      <e><p><l>avemamo<s n="cmp"/></l><r>supaya<s n="cnjsub"/></r></p></e>
+      <e><p><l>avo<s n="cmp"/></l><r>lalu<s n="cnjcoo"/></r></p></e>
+      <e><p><l>mamo<s n="cmp"/></l><r>supaya<s n="cnjsub"/></r></p></e>
+      <e><p><l>amana<s n="cnj"/></l><r>tapi<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ava<s n="cnj"/></l><r>karena<s n="cnjsub"/></r></p></e>
+      <e><p><l>e<s n="cnj"/></l><r>dan<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ma<s n="cnj"/></l><r>dan<s n="cnjcoo"/></r></p></e>
+      <e><p><l>maini<s n="cnj"/></l><r>lalu<s n="cnjcoo"/></r></p></e>
+      <e><p><l>vape<s n="cnj"/></l><r>tapi<s n="cnjcoo"/></r></p></e>
+      <!-- <e><p><l>nanaria venasia<s n="imp"/></l><r>*pelahan<b/>saja<s n="adv"/></r></p></e> -->
+      <!-- <e><p><l>piesava<s n="ij"/></l><r>tidak<s n="adv"/><b/>apa-apa<s n="prn"/><s n="tn"/></r></p></e> -->
+      <!-- <e><p><l>raria vesie<s n="ij"/></l><r>selamat<s n="adj"/><b/>siang<s n="n"/></r></p></e> -->
+      <e><p><l>siambai<s n="ij"/></l><r>selamat<b/>pagi<s n="ij"/></r></p></e>
+      <!-- <e><p><l>tabeya<s n="ij"/></l><r>selamat<s n="adj"/><b/>tinggal<s n="vblex"/></r></p></e> -->
+      <e><p><l>yo<s n="ij"/></l><r>*iya</r></p></e>
+      <e><p><l>na toi<s n="itg"/></l><r>di<b/>mana<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>na toi<s n="itg"/></l><r>di<b/>mana<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>nana topina<s n="itg"/></l><r>di<b/>mana<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>tane<s n="itg"/></l><r>bagaimana<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>tei<s n="itg"/></l><r>siapa<s n="prn"/><s n="itg"/></r></p></e>
+      <e><p><l>teina<s n="itg"/></l><r>siapa<s n="prn"/><s n="itg"/></r></p></e>
+      <!-- <e><p><l>toni(na)<s n="itg"/></l><r>yang<s n="rel"/><b/>mana<s n="prn"/><s n="itg"/></r></p></e> -->
+      <e><p><l>vitoi<s n="itg"/></l><r>apa<s n="prn"/><s n="itg"/></r></p></e>
+      <e><p><l>vitoi<s n="itg"/></l><r>bagaimana<s n="adv"/><s n="itg"/></r></p></e>
+      <!-- <e><p><l>nina<s n="loc"/></l><r>di<s n="pr"/><b/>sini<s n="prn"/><s n="loc"/></r></p></e> -->
+      <e><p><l>wana<s n="loc"/></l><r>sana<s n="prn"/><s n="loc"/></r></p></e>
+      <!-- <e><p><l>yana<s n="loc"/></l><r>di<s n="pr"/><b/>situ<s n="prn"/><s n="loc"/></r></p></e> -->
+      <!-- <e><p><l>Muotarai<s n="n"/></l><r>pulau<s n="n"/><b/>dekat<s n="adj"/><b/>kampung<s n="n"/><b/>*Windesi</r></p></e> -->
+      <!-- <e><p><l>abis<s n="n"/></l><r>ulat<s n="n"/><b/>*sago</r></p></e> -->
+      <!-- <e><p><l>abo vienukwai<s n="n"/></l><r>buah<s n="n"/><b/>kuning<s n="n"/><b/>pandan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>abo viurar<s n="n"/></l><r>buah<s n="n"/><b/>merah<s n="n"/><b/>pandan<s n="n"/></r></p></e> -->
+      <e><p><l>adia<s n="n"/></l><r>api<s n="n"/></r></p></e>
+      <!-- <e><p><l>adia kaisa<s n="n"/></l><r>arang<s n="n"/><b/>api<s n="n"/></r></p></e> -->
+      <e><p><l>ai<s n="n"/></l><r>kaki<s n="n"/></r></p></e>
+      <e><p><l>ai<s n="n"/></l><r>kayu<s n="n"/></r></p></e>
+      <e><p><l>ai<s n="n"/></l><r>pohon<s n="n"/></r></p></e>
+      <!-- <e><p><l>ai avu<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>pohon<s n="n"/><b/>*nangrau<b/>kecil<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>ai batai<s n="n"/></l><r>pohon<s n="n"/><b/>nona<s n="n"/></r></p></e> -->
+      <e><p><l>ai bu<s n="n"/></l><r>lutut<s n="n"/></r></p></e>
+      <e><p><l>ai buo<s n="n"/></l><r>jantung<s n="n"/></r></p></e>
+      <!-- <e><p><l>ai duaro<s n="n"/></l><r>sendok<s n="n"/><b/>*papeda</r></p></e> -->
+      <!-- <e><p><l>ai dui<s n="n"/></l><r>pohon<s n="n"/><b/>*nibung<b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>ai duti<s n="n"/></l><r>bambu<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>ai kiai<s n="n"/></l><r>jari<s n="n"/><b/>kaki<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai kiai dir<s n="n"/></l><r>kuku<s n="n"/><b/>kaki<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai komboti<s n="n"/></l><r>bagian<s n="n"/><b/>kaki<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai kondo<s n="n"/></l><r>kayu<s n="n"/><b/>untuk<s n="pr"/><b/>bikin<s n="vblex"/><b/>*prau</r></p></e> -->
+      <!-- <e><p><l>ai kusa<s n="n"/></l><r>pohon<s n="n"/><b/>paku<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai mu<s n="n"/></l><r>musim<s n="n"/><b/>buah<s n="n"/><s n="actio"/><s n="ber"/></r></p></e> -->
+      <!-- <e><p><l>ai mundur<s n="n"/></l><r>pohon<s n="n"/><b/>mundur<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>ai parai<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>pohon<s n="n"/><b/>*nangrau<b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>ai pata<s n="n"/></l><r>tempat<s n="n"/><b/>tidur<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>ai paya<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>pandan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai pira<s n="n"/></l><r>paku<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>ai rabo<s n="n"/></l><r>bandar<s n="n"/><b/>kayu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai raro<s n="n"/></l><r>hutan<s n="n"/><b/>lebat<s n="adj"/></r></p></e> -->
+      <e><p><l>ai riri<s n="n"/></l><r>tiang<s n="n"/></r></p></e>
+      <!-- <e><p><l>ai rumwaya<s n="n"/></l><r>bandar<s n="n"/><b/>kayu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai soma<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>pohon<s n="n"/></r></p></e> -->
+      <e><p><l>ai tatoni<s n="n"/></l><r>tongkat<s n="n"/></r></p></e>
+      <e><p><l>ai tupapui<s n="n"/></l><r>tumit<s n="n"/></r></p></e>
+      <!-- <e><p><l>ai va<s n="n"/></l><r>telapak<s n="n"/><b/>kaki<s n="n"/></r></p></e> -->
+      <e><p><l>ai vasor<s n="n"/></l><r>sandal<s n="n"/></r></p></e>
+      <e><p><l>ai vioi<s n="n"/></l><r>labuh<s n="adj"/><s n="subst"/><s n="pe-an"/><s n="sg"/></r></p></e>
+      <e><p><l>ai vioi<s n="n"/></l><r>jembatan<s n="n"/></r></p></e>
+      <!-- <e><p><l>ai wa<s n="n"/></l><r>kayu<s n="n"/><b/>perahu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ai yarou<s n="n"/></l><r>pohon<s n="n"/><b/>kasuari<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>aikamai<s n="n"/></l><r>mata<s n="n"/><b/>kaki<s n="n"/></r></p></e> -->
+      <e><p><l>akanak<s n="n"/></l><r>cempedak<s n="n"/></r></p></e>
+      <e><p><l>akanak amber<s n="n"/></l><r>nangka<s n="n"/></r></p></e>
+      <!-- <e><p><l>amau<s n="n"/></l><r>alat<s n="n"/><b/>*untul<b/>*pangkul<b/>sagu<s n="n"/></r></p></e> -->
+      <e><p><l>amoi<s n="n"/></l><r>tante<s n="n"/></r></p></e>
+      <e><p><l>amor<s n="n"/></l><r>*kangguru</r></p></e>
+      <e><p><l>amumar<s n="n"/></l><r>lalat<s n="n"/></r></p></e>
+      <!-- <e><p><l>amunggeri<s n="n"/></l><r>cacing<s n="n"/><b/>sagu<s n="n"/></r></p></e> -->
+      <e><p><l>ana<s n="n"/></l><r>*papeda</r></p></e>
+      <!-- <e><p><l>ana sasinai<s n="n"/></l><r>duri<s n="n"/><b/>sagu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ana su<s n="n"/></l><r>tempat<s n="n"/><b/>untuk<s n="pr"/><b/>*letakkan<b/>sagu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ana vata<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>sagu<s n="n"/><b/>besar<s n="adj"/><b/>duri<s n="n"/><s n="actio"/><s n="ber"/></r></p></e> -->
+      <!-- <e><p><l>anambet<s n="n"/></l><r>*papeda<b/>dingin<s n="adj"/></r></p></e> -->
+      <e><p><l>anana<s n="n"/></l><r>semut<s n="n"/></r></p></e>
+      <!-- <e><p><l>anana kepai<s n="n"/></l><r>semut<s n="n"/><b/>hitam<s n="n"/><b/>besar<s n="adj"/><b/>yang<s n="rel"/><b/>*gigit</r></p></e> -->
+      <!-- <e><p><l>anangganai<s n="n"/></l><r>umpan<s n="n"/><b/>ikan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ananggas<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>sagu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ananggemo<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>sagu<s n="n"/><b/>tidak<s n="adv"/><b/>duri<s n="n"/><s n="actio"/><s n="ber"/></r></p></e> -->
+      <!-- <e><p><l>anasani<s n="n"/></l><r>kulit<s n="n"/><b/>*bia<b/>tiram<s n="n"/></r></p></e> -->
+      <e><p><l>anda<s n="n"/></l><r>mangga<s n="n"/></r></p></e>
+      <!-- <e><p><l>anda<s n="n"/></l><r>duri<s n="n"/><b/>babi<s n="n"/><b/>racun<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>andau<s n="n"/></l><r>sukun<s n="vblex"/><b/>hutan<s n="n"/></r></p></e> -->
+      <e><p><l>andita buo<s n="n"/></l><r>sukun<s n="vblex"/></r></p></e>
+      <e><p><l>andiu<s n="n"/></l><r>tikar<s n="n"/></r></p></e>
+      <e><p><l>andori<s n="n"/></l><r>jambu<s n="n"/></r></p></e>
+      <!-- <e><p><l>andori katu<s n="n"/></l><r>jambu<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>andori pimasa<s n="n"/></l><r>jambu<s n="n"/><b/>bola<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>andori vesuwa<s n="n"/></l><r>jambu<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <e><p><l>anggadi<s n="n"/></l><r>kelapa<s n="n"/></r></p></e>
+      <!-- <e><p><l>anggadi karu<s n="n"/></l><r>air<s n="n"/><b/>kelapa<s n="n"/></r></p></e> -->
+      <e><p><l>anggamau<s n="n"/></l><r>anjing<s n="n"/></r></p></e>
+      <!-- <e><p><l>anggara<s n="n"/></l><r>jeruk<s n="n"/><b/>nipis<s n="n"/></r></p></e> -->
+      <e><p><l>anggara<s n="n"/></l><r>lemon<s n="n"/></r></p></e>
+      <e><p><l>aniai<s n="n"/></l><r>tikus<s n="n"/></r></p></e>
+      <!-- <e><p><l>aniai kakopa<s n="n"/></l><r>tikus<s n="n"/><b/>tanah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>anibar<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>lebah<s n="n"/></r></p></e> -->
+      <e><p><l>anio<s n="n"/></l><r>rumah<s n="n"/></r></p></e>
+      <e><p><l>aniose<s n="n"/></l><r>desa<s n="n"/></r></p></e>
+      <e><p><l>aniose pui<s n="n"/></l><r>*udik</r></p></e>
+      <!-- <e><p><l>apandiu rau<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>daun<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>aparapiri<s n="n"/></l><r>agus<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>aparapiri<s n="n"/></l><r>*agas</r></p></e>
+      <!-- <e><p><l>ape<s n="n"/></l><r>bagian<s n="n"/><b/>dari<s n="pr"/><b/>tanam<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/><b/>sagu<s n="n"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>apel<s n="n"/></l><r>apel<s n="n"/></r></p></e>
+      <!-- <e><p><l>apopa<s n="n"/></l><r>sarang<s n="n"/><b/>laba-laba<s n="n"/></r></p></e> -->
+      <e><p><l>apopi<s n="n"/></l><r>kupu-kupu<s n="n"/></r></p></e>
+      <!-- <e><p><l>apor<s n="n"/></l><r>ikan<s n="n"/><b/>lele<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>apose<s n="n"/></l><r>bunga<s n="n"/><b/>pala<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>apusi<s n="n"/></l><r>nenek<s n="n"/><b/>dan<s n="cnjcoo"/><b/>kakek<s n="n"/></r></p></e> -->
+      <e><p><l>arawa<s n="n"/></l><r>ranting<s n="n"/></r></p></e>
+      <e><p><l>arepa<s n="n"/></l><r>awan<s n="n"/></r></p></e>
+      <!-- <e><p><l>ari<s n="n"/></l><r>*matoa<b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>ari<s n="n"/></l><r>gereja<s n="n"/></r></p></e>
+      <e><p><l>ari<s n="n"/></l><r>*minggu</r></p></e>
+      <e><p><l>arie<s n="n"/></l><r>labu<s n="n"/></r></p></e>
+      <e><p><l>ariou<s n="n"/></l><r>bunga<s n="n"/></r></p></e>
+      <!-- <e><p><l>ariou ambe<s n="n"/></l><r>pohon<s n="n"/><b/>*dadak</r></p></e> -->
+      <!-- <e><p><l>ariou vemamaya<s n="n"/></l><r>putri<s n="n"/><b/>malu<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>ariou vemarera<s n="n"/></l><r>putri<s n="n"/><b/>malu<s n="adj"/></r></p></e> -->
+      <e><p><l>aro<s n="n"/></l><r>dada<s n="n"/></r></p></e>
+      <!-- <e><p><l>aro<s n="n"/></l><r>*jerat<b/>tali<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>aropo<s n="n"/></l><r>depan<s n="n"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>asa<s n="n"/></l><r>cabang<s n="n"/></r></p></e>
+      <e><p><l>asa<s n="n"/></l><r>cabang<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <!-- <e><p><l>asaruai<s n="n"/></l><r>babi<s n="n"/><b/>duri<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>asaruai rawa<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>karang<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>asu<s n="n"/></l><r>buah<s n="n"/><b/>hitam<s n="n"/></r></p></e> -->
+      <e><p><l>atai<s n="n"/></l><r>gurita<s n="n"/></r></p></e>
+      <e><p><l>ate<s n="n"/></l><r>tangga<s n="n"/></r></p></e>
+      <e><p><l>atobetari<s n="n"/></l><r>ketapang<s n="n"/></r></p></e>
+      <!-- <e><p><l>atovi<s n="n"/></l><r>anak<s n="n"/><b/>panah<s n="n"/></r></p></e> -->
+      <e><p><l>atuma<s n="n"/></l><r>anak<s n="n"/></r></p></e>
+      <e><p><l>ature<s n="n"/></l><r>pintu<s n="n"/></r></p></e>
+      <e><p><l>awadu<s n="n"/></l><r>kaki<s n="n"/></r></p></e>
+      <e><p><l>awadu<s n="n"/></l><r>*pahu</r></p></e>
+      <!-- <e><p><l>awair<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>karang<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>awawar<s n="n"/></l><r>baju<s n="n"/></r></p></e>
+      <e><p><l>awawar<s n="n"/></l><r>pakai<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>aweko<s n="n"/></l><r>burung<s n="n"/><b/>*kakatua</r></p></e> -->
+      <e><p><l>awini<s n="n"/></l><r>ibu<s n="n"/></r></p></e>
+      <e><p><l>awini<s n="n"/></l><r>mama<s n="n"/></r></p></e>
+      <!-- <e><p><l>awini katu<s n="n"/></l><r>adik<s n="n"/><b/>ibu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>awini katu<s n="n"/></l><r>mama<s n="n"/><b/>adik<s n="n"/></r></p></e> -->
+      <e><p><l>aya<s n="n"/></l><r>burung<s n="n"/></r></p></e>
+      <e><p><l>aya aweko<s n="n"/></l><r>*kakatua</r></p></e>
+      <!-- <e><p><l>aya masisumi<s n="n"/></l><r>burung<s n="n"/><b/>pipit<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>aya tomboro<s n="n"/></l><r>burung<s n="n"/><b/>hantu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>aya vata<s n="n"/></l><r>burung<s n="n"/><b/>*cenderawasih</r></p></e> -->
+      <e><p><l>ayas<s n="n"/></l><r>*tambelo</r></p></e>
+      <!-- <e><p><l>ayori<s n="n"/></l><r>pohon<s n="n"/><b/>beringin<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>baba vasia<s n="n"/></l><r>orang<s n="n"/><b/>tua<s n="adj"/></r></p></e> -->
+      <e><p><l>baba(i)<s n="n"/></l><r>kakak<s n="n"/></r></p></e>
+      <e><p><l>babua<s n="n"/></l><r>atap<s n="n"/></r></p></e>
+      <e><p><l>babuotui<s n="n"/></l><r>lumpur<s n="n"/></r></p></e>
+      <e><p><l>babuotui<s n="n"/></l><r>*becek</r></p></e>
+      <e><p><l>bar<s n="n"/></l><r>bola<s n="n"/></r></p></e>
+      <!-- <e><p><l>barimu<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>keladi<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>bata<s n="n"/></l><r>ombak<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <e><p><l>baya<s n="n"/></l><r>pelepah<s n="n"/></r></p></e>
+      <!-- <e><p><l>bianggaina<s n="n"/></l><r>kura-kura<s n="n"/><b/>laut<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>bibiya<s n="n"/></l><r>gelombang<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>botol<s n="n"/></l><r>botol<s n="n"/></r></p></e>
+      <!-- <e><p><l>buai<s n="n"/></l><r>sopan<s n="adj"/><b/>*santum</r></p></e> -->
+      <e><p><l>buai<s n="n"/></l><r>sifat<s n="n"/></r></p></e>
+      <e><p><l>buai<s n="n"/></l><r>*pembawaan</r></p></e>
+      <e><p><l>bubusa<s n="n"/></l><r>paru<s n="n"/></r></p></e>
+      <e><p><l>bubuya<s n="n"/></l><r>gelembung<s n="n"/></r></p></e>
+      <e><p><l>buo<s n="n"/></l><r>buah<s n="n"/></r></p></e>
+      <e><p><l>dia<s n="n"/></l><r>ikan<s n="n"/></r></p></e>
+      <!-- <e><p><l>dia ari<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>ikan<s n="n"/><b/>(<s n="lpar"/><b/>pari<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>dia ikabu<s n="n"/></l><r>ikan<s n="n"/><b/>hias<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>dia karu<s n="n"/></l><r>ikan<s n="n"/><b/>kuah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>dia kokori<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>ikan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>dia maruaro<s n="n"/></l><r>*ikanair<b/>tawar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>dia rumit<s n="n"/></l><r>ikan<s n="n"/><b/>hias<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>dia vesovina<s n="n"/></l><r>ikan<s n="n"/><b/>*asar</r></p></e> -->
+      <!-- <e><p><l>dia vesovina<s n="n"/></l><r>ikan<s n="n"/><b/>*asar</r></p></e> -->
+      <e><p><l>dianggariria<s n="n"/></l><r>buaya<s n="n"/></r></p></e>
+      <e><p><l>diasinia<s n="n"/></l><r>buaya<s n="n"/></r></p></e>
+      <!-- <e><p><l>die<s n="n"/></l><r>pasang<s n="n"/><b/>turun<s n="vblex"/></r></p></e> -->
+      <e><p><l>die<s n="n"/></l><r>*meti</r></p></e>
+      <!-- <e><p><l>die<s n="n"/></l><r>air<s n="n"/><b/>turun<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>die diru<s n="n"/></l><r>*meti<b/>malam<s n="n"/></r></p></e> -->
+      <e><p><l>diniai<s n="n"/></l><r>tungku<s n="n"/></r></p></e>
+      <e><p><l>diobara<s n="n"/></l><r>hujan<s n="n"/></r></p></e>
+      <e><p><l>dir<s n="n"/></l><r>gigi<s n="n"/></r></p></e>
+      <e><p><l>dire<s n="n"/></l><r>pinggir<s n="n"/></r></p></e>
+      <e><p><l>direwa<s n="n"/></l><r>pinggir<s n="n"/></r></p></e>
+      <!-- <e><p><l>diro mua<s n="n"/></l><r>ipar<s n="n"/><b/>laki<s n="n"/><s n="red"/><s n="pl"/></r></p></e> -->
+      <!-- <e><p><l>diro vavi<s n="n"/></l><r>ipar<s n="n"/><b/>perempuan<s n="n"/></r></p></e> -->
+      <e><p><l>diru<s n="n"/></l><r>malam<s n="n"/></r></p></e>
+      <!-- <e><p><l>diu<s n="n"/></l><r>ke<s n="pr"/><b/>bawah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>diu<s n="n"/></l><r>di<s n="pr"/><b/>bawah<s n="n"/></r></p></e> -->
+      <e><p><l>do re<s n="n"/></l><r>hutan<s n="n"/></r></p></e>
+      <e><p><l>dodeso<s n="n"/></l><r>serang<s n="vblex"/><s n="subst"/><s n="peN-an"/><s n="sg"/></r></p></e>
+      <e><p><l>dodoku<s n="n"/></l><r>labuh<s n="adj"/><s n="subst"/><s n="pe-an"/><s n="sg"/></r></p></e>
+      <e><p><l>dodoku<s n="n"/></l><r>jembatan<s n="n"/></r></p></e>
+      <e><p><l>doi<s n="n"/></l><r>uang<s n="n"/></r></p></e>
+      <e><p><l>dui<s n="n"/></l><r>lantai<s n="n"/></r></p></e>
+      <!-- <e><p><l>dui<s n="n"/></l><r>pohon<s n="n"/><b/>*nibung</r></p></e> -->
+      <!-- <e><p><l>dui mimbiaki<s n="n"/></l><r>pohon<s n="n"/><b/>*nibung</r></p></e> -->
+      <e><p><l>dunia<s n="n"/></l><r>dunia<s n="n"/></r></p></e>
+      <e><p><l>ember<s n="n"/></l><r>ember<s n="n"/></r></p></e>
+      <!-- <e><p><l>enderek<s n="n"/></l><r>pohon<s n="n"/><b/>*mengkudu</r></p></e> -->
+      <!-- <e><p><l>enderek buo<s n="n"/></l><r>buah<s n="n"/><b/>noni<s n="n"/><b/>(<s n="lpar"/></r></p></e> -->
+      <!-- <e><p><l>enggerek<s n="n"/></l><r>pohon<s n="n"/><b/>*mengkudu</r></p></e> -->
+      <e><p><l>gaja<s n="n"/></l><r>gajah<s n="n"/></r></p></e>
+      <e><p><l>gardus<s n="n"/></l><r>*karton</r></p></e>
+      <e><p><l>gardus<s n="n"/></l><r>*gardus</r></p></e>
+      <e><p><l>glas<s n="n"/></l><r>gelas<s n="n"/></r></p></e>
+      <!-- <e><p><l>gomo<s n="n"/></l><r>sukun<s n="vblex"/><b/>hutan<s n="n"/></r></p></e> -->
+      <e><p><l>imboni<s n="n"/></l><r>kumbang<s n="n"/></r></p></e>
+      <!-- <e><p><l>ina<s n="n"/></l><r>*ampas<b/>sagu<s n="n"/></r></p></e> -->
+      <e><p><l>inar<s n="n"/></l><r>*menjanda</r></p></e>
+      <e><p><l>inggeresi<s n="n"/></l><r>*kakerlak</r></p></e>
+      <e><p><l>jendela<s n="n"/></l><r>jendela<s n="n"/></r></p></e>
+      <e><p><l>kabiebar<s n="n"/></l><r>kilat<s n="n"/></r></p></e>
+      <!-- <e><p><l>kabubui<s n="n"/></l><r>*rebung<b/>bambu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kai<s n="n"/></l><r>sendok<s n="n"/><b/>*papeda</r></p></e> -->
+      <!-- <e><p><l>kakani<s n="n"/></l><r>burung<s n="n"/><b/>elang<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kakomi<s n="n"/></l><r>buah<s n="n"/><b/>pala<s n="n"/><b/>hutan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kakomi ambe<s n="n"/></l><r>buah<s n="n"/><b/>pala<s n="n"/><b/>banda<s n="n"/></r></p></e> -->
+      <e><p><l>kakopa<s n="n"/></l><r>tanah<s n="n"/></r></p></e>
+      <e><p><l>kakuna<s n="n"/></l><r>ulat<s n="n"/></r></p></e>
+      <!-- <e><p><l>kakuna suat<s n="n"/></l><r>ulat<s n="n"/><b/>yang<s n="rel"/><b/>*gigit</r></p></e> -->
+      <!-- <e><p><l>kalawai<s n="n"/></l><r>tombak<s n="n"/><b/>ikan<s n="n"/><b/>punya<s n="vblex"/><b/>satu<s n="num"/><b/>mata<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kama<s n="n"/></l><r>*bia<b/>*lola</r></p></e> -->
+      <!-- <e><p><l>kamareni<s n="n"/></l><r>tombak<s n="n"/><b/>ikan<s n="n"/><b/>pakai<s n="vblex"/><b/>mata<s n="n"/><b/>banyak<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>kamari<s n="n"/></l><r>*kolong<b/>rumah<s n="n"/></r></p></e> -->
+      <e><p><l>kamayu<s n="n"/></l><r>asap<s n="n"/></r></p></e>
+      <e><p><l>kamberei<s n="n"/></l><r>lobang<s n="n"/></r></p></e>
+      <e><p><l>kambu<s n="n"/></l><r>air<s n="n"/></r></p></e>
+      <e><p><l>kambu sore<s n="n"/></l><r>muara<s n="n"/></r></p></e>
+      <!-- <e><p><l>kambu virare<s n="n"/></l><r>air<s n="n"/><b/>terjun<s n="vblex"/></r></p></e> -->
+      <e><p><l>kamisera<s n="n"/></l><r>pagi<s n="n"/></r></p></e>
+      <e><p><l>kamitu<s n="n"/></l><r>jangkar<s n="n"/></r></p></e>
+      <!-- <e><p><l>kamuavu<s n="n"/></l><r>bintang<s n="n"/><b/>laut<s n="n"/></r></p></e> -->
+      <e><p><l>kamumi<s n="n"/></l><r>nyamuk<s n="n"/></r></p></e>
+      <e><p><l>kandai<s n="n"/></l><r>duri<s n="n"/></r></p></e>
+      <e><p><l>kandang<s n="n"/></l><r>kandang<s n="n"/></r></p></e>
+      <e><p><l>kanisu<s n="n"/></l><r>*ludah</r></p></e>
+      <e><p><l>kanisu<s n="n"/></l><r>*meludah</r></p></e>
+      <!-- <e><p><l>kanyambe<s n="n"/></l><r>kura-kura<s n="n"/><b/>darat<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <e><p><l>kapatieiti<s n="n"/></l><r>cicak<s n="n"/></r></p></e>
+      <e><p><l>kapo<s n="n"/></l><r>jamur<s n="n"/></r></p></e>
+      <!-- <e><p><l>kapo ai<s n="n"/></l><r>jamur<s n="n"/><b/>kayu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kapo ina<s n="n"/></l><r>jamur<s n="n"/><b/>sagu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kapura<s n="n"/></l><r>burung<s n="n"/><b/>merpati<s n="n"/></r></p></e> -->
+      <e><p><l>karaini<s n="n"/></l><r>sarang<s n="n"/></r></p></e>
+      <e><p><l>karandia<s n="n"/></l><r>keranjang<s n="n"/></r></p></e>
+      <e><p><l>karapea<s n="n"/></l><r>kursi<s n="n"/></r></p></e>
+      <!-- <e><p><l>karavi<s n="n"/></l><r>bujang<s n="n"/><b/>perempuan<s n="n"/></r></p></e> -->
+      <e><p><l>karavi<s n="n"/></l><r>nona<s n="n"/></r></p></e>
+      <!-- <e><p><l>kare<s n="n"/></l><r>karang<s n="n"/><b/>(<s n="lpar"/></r></p></e> -->
+      <!-- <e><p><l>kare<s n="n"/></l><r>biji<s n="n"/><b/>cempedak<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>karia<s n="n"/></l><r>air<s n="n"/><b/>naik<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>karie<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>bambu<s n="n"/></r></p></e> -->
+      <e><p><l>karu<s n="n"/></l><r>belakang<s n="n"/></r></p></e>
+      <e><p><l>karu<s n="n"/></l><r>air<s n="n"/></r></p></e>
+      <e><p><l>karu<s n="n"/></l><r>kuah<s n="n"/></r></p></e>
+      <!-- <e><p><l>karubuar<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>cacing<s n="n"/><b/>laut<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>karubuari<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>siput<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>karumas<s n="n"/></l><r>air<s n="n"/><b/>panas<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>karusina<s n="n"/></l><r>tulang<s n="n"/><b/>belakang<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kasasai<s n="n"/></l><r>kepiting<s n="n"/><b/>hitam<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kasau<s n="n"/></l><r>agak<s n="n"/><b/>jauh<s n="adj"/></r></p></e> -->
+      <e><p><l>kasau<s n="n"/></l><r>celah<s n="n"/></r></p></e>
+      <!-- <e><p><l>kasiboi<s n="n"/></l><r>cacing<s n="n"/><b/>tanah<s n="n"/></r></p></e> -->
+      <e><p><l>kasina<s n="n"/></l><r>*ketimun</r></p></e>
+      <e><p><l>kasire<s n="n"/></l><r>pinggang<s n="n"/></r></p></e>
+      <e><p><l>kasusir<s n="n"/></l><r>kembar<s n="adj"/></r></p></e>
+      <e><p><l>kasuvavoru<s n="n"/></l><r>pagi<s n="n"/></r></p></e>
+      <!-- <e><p><l>katarowi<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>ikan<s n="n"/><b/>hias<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>katiei<s n="n"/></l><r>bujang<s n="n"/><b/>laki<s n="n"/><s n="red"/><s n="pl"/></r></p></e> -->
+      <e><p><l>kavaru<s n="n"/></l><r>kacang<s n="n"/></r></p></e>
+      <!-- <e><p><l>kavaru kakopa<s n="n"/></l><r>kacang<s n="n"/><b/>tanah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kavaru maki<s n="n"/></l><r>kacang<s n="n"/><b/>hijau<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kavaru viarui<s n="n"/></l><r>kacang<s n="n"/><b/>panjang<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>kavaru viurar<s n="n"/></l><r>kacang<s n="n"/><b/>merah<s n="n"/></r></p></e> -->
+      <e><p><l>kavi<s n="n"/></l><r>mbak<s n="n"/></r></p></e>
+      <e><p><l>kavi<s n="n"/></l><r>perempuan<s n="n"/></r></p></e>
+      <e><p><l>kavio<s n="n"/></l><r>bicara<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>kavio<s n="n"/></l><r>bahasa<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>kavio<s n="n"/></l><r>kata<s n="n"/></r></p></e>
+      <e><p><l>kavio<s n="n"/></l><r>bahasa<s n="n"/></r></p></e>
+      <e><p><l>kavuvui<s n="n"/></l><r>*rebung</r></p></e>
+      <e><p><l>kawai<s n="n"/></l><r>udang<s n="n"/></r></p></e>
+      <e><p><l>kawasa<s n="n"/></l><r>tamu<s n="n"/></r></p></e>
+      <e><p><l>kawasa<s n="n"/></l><r>orang<s n="n"/></r></p></e>
+      <e><p><l>kawasa<s n="n"/></l><r>masyarakat<s n="n"/></r></p></e>
+      <e><p><l>kayobi<s n="n"/></l><r>*sotong</r></p></e>
+      <e><p><l>kayobi<s n="n"/></l><r>*suntung</r></p></e>
+      <!-- <e><p><l>kayori<s n="n"/></l><r>belut<s n="n"/><b/>air<s n="n"/><b/>tawar<s n="adj"/></r></p></e> -->
+      <e><p><l>kayu re<s n="n"/></l><r>kait<s n="n"/></r></p></e>
+      <!-- <e><p><l>kayu re<s n="n"/></l><r>mata<s n="n"/><b/>*kail</r></p></e> -->
+      <e><p><l>kera-kerai<s n="n"/></l><r>laba-laba<s n="n"/></r></p></e>
+      <!-- <e><p><l>kesi<s n="n"/></l><r>pohon<s n="n"/><b/>damar<s n="n"/></r></p></e> -->
+      <e><p><l>kiambot<s n="n"/></l><r>ginjal<s n="n"/></r></p></e>
+      <e><p><l>kimanam<s n="n"/></l><r>*pakat</r></p></e>
+      <e><p><l>kiru<s n="n"/></l><r>kapur<s n="n"/></r></p></e>
+      <e><p><l>kivavio<s n="n"/></l><r>*bicaraan</r></p></e>
+      <e><p><l>kodo<s n="n"/></l><r>kodok<s n="n"/></r></p></e>
+      <!-- <e><p><l>koire besaire<s n="n"/></l><r>kutu<s n="n"/><b/>yang<s n="rel"/><b/>bau<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>koiresinia<s n="n"/></l><r>kutu<s n="n"/><b/>busuk<s n="adj"/></r></p></e> -->
+      <e><p><l>kokori<s n="n"/></l><r>ayam<s n="n"/></r></p></e>
+      <!-- <e><p><l>komap rau<s n="n"/></l><r>sayur<s n="n"/><b/>bayam<s n="n"/></r></p></e> -->
+      <e><p><l>komoi<s n="n"/></l><r>mas<s n="n"/></r></p></e>
+      <!-- <e><p><l>komoi<s n="n"/></l><r>anak<s n="n"/><b/>laki<s n="n"/><s n="red"/><s n="pl"/></r></p></e> -->
+      <!-- <e><p><l>korombovi<s n="n"/></l><r>*bia<b/>*bleken</r></p></e> -->
+      <e><p><l>korou<s n="n"/></l><r>ular<s n="n"/></r></p></e>
+      <!-- <e><p><l>kosa<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>bambu<s n="n"/></r></p></e> -->
+      <e><p><l>kosinai<s n="n"/></l><r>kaca<s n="n"/></r></p></e>
+      <!-- <e><p><l>kowo-kowo<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>burung<s n="n"/></r></p></e> -->
+      <e><p><l>kuau<s n="n"/></l><r>*timba</r></p></e>
+      <e><p><l>kuda<s n="n"/></l><r>kuda<s n="n"/></r></p></e>
+      <!-- <e><p><l>kudung<s n="n"/></l><r>tangan<s n="n"/><b/>kotor<s n="adj"/></r></p></e> -->
+      <e><p><l>kumami<s n="n"/></l><r>*teripang</r></p></e>
+      <!-- <e><p><l>kumu-kumu<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>merpati<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>kurumi<s n="n"/></l><r>lembah<s n="n"/><b/>antara<s n="pr"/><b/>gunung<s n="n"/></r></p></e> -->
+      <e><p><l>kuruya<s n="n"/></l><r>guntur<s n="n"/></r></p></e>
+      <!-- <e><p><l>kusuvei rau<s n="n"/></l><r>sayur<s n="n"/><b/>paku<s n="n"/></r></p></e> -->
+      <e><p><l>kusuvei rau<s n="n"/></l><r>pakis<s n="n"/></r></p></e>
+      <e><p><l>lilin<s n="n"/></l><r>lilin<s n="n"/></r></p></e>
+      <e><p><l>loba<s n="n"/></l><r>*loba</r></p></e>
+      <e><p><l>madiawi<s n="n"/></l><r>adik<s n="n"/></r></p></e>
+      <e><p><l>mai<s n="n"/></l><r>ibu<s n="n"/></r></p></e>
+      <e><p><l>mai<s n="n"/></l><r>mama<s n="n"/></r></p></e>
+      <!-- <e><p><l>makarabat<s n="n"/></l><r>belut<s n="n"/><b/>laut<s n="n"/></r></p></e> -->
+      <e><p><l>mambebaba<s n="n"/></l><r>pupu<s n="n"/><s n="attr"/><s n="se"/></r></p></e>
+      <e><p><l>mambiri<s n="n"/></l><r>raja<s n="n"/></r></p></e>
+      <!-- <e><p><l>mambiri<s n="n"/></l><r>orang<s n="n"/><b/>kuasa<s n="n"/><s n="actio"/><s n="ber"/></r></p></e> -->
+      <!-- <e><p><l>mamburuk<s n="n"/></l><r>burung<s n="n"/><b/>*mambruk</r></p></e> -->
+      <e><p><l>mamei<s n="n"/></l><r>kait<s n="n"/></r></p></e>
+      <!-- <e><p><l>mamei<s n="n"/></l><r>mata<s n="n"/><b/>*kail</r></p></e> -->
+      <e><p><l>mamura<s n="n"/></l><r>bambu<s n="n"/></r></p></e>
+      <e><p><l>mamuta<s n="n"/></l><r>muntah<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>mandakiri<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*teripang<b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>mandawandi<s n="n"/></l><r>imam<s n="n"/></r></p></e>
+      <!-- <e><p><l>mandiu<s n="n"/></l><r>rumput<s n="n"/><b/>laut<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>mandiu buo<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>buah<s n="n"/><b/>rumput<s n="n"/><b/>laut<s n="n"/></r></p></e> -->
+      <e><p><l>maneta<s n="n"/></l><r>teman<s n="n"/></r></p></e>
+      <e><p><l>mani<s n="n"/></l><r>minyak<s n="n"/></r></p></e>
+      <!-- <e><p><l>mani anggadi<s n="n"/></l><r>minyak<s n="n"/><b/>kelapa<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>mani kakopa<s n="n"/></l><r>minyak<s n="n"/><b/>tanah<s n="n"/></r></p></e> -->
+      <e><p><l>maniai<s n="n"/></l><r>lebah<s n="n"/></r></p></e>
+      <!-- <e><p><l>maniai kakopa<s n="n"/></l><r>lebah<s n="n"/><b/>tanah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>maniai pimuna<s n="n"/></l><r>lebah<s n="n"/><b/>bunuh<s n="vblex"/><b/>babi<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>maniai unu<s n="n"/></l><r>lebah<s n="n"/><b/>madu<s n="n"/></r></p></e> -->
+      <e><p><l>manora<s n="n"/></l><r>*kalawai</r></p></e>
+      <e><p><l>manu<s n="n"/></l><r>*bisul</r></p></e>
+      <e><p><l>mapar<s n="n"/></l><r>lembah<s n="n"/></r></p></e>
+      <!-- <e><p><l>mapar<s n="n"/></l><r>tanah<s n="n"/><b/>luas<s n="adj"/></r></p></e> -->
+      <e><p><l>marandi<s n="n"/></l><r>hias<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>marapa rau<s n="n"/></l><r>daun<s n="n"/><b/>melinjo<s n="n"/></r></p></e> -->
+      <e><p><l>marareia<s n="n"/></l><r>anak<s n="n"/></r></p></e>
+      <e><p><l>mararou buo<s n="n"/></l><r>*belangan</r></p></e>
+      <e><p><l>maria<s n="n"/></l><r>air<s n="n"/></r></p></e>
+      <!-- <e><p><l>maria re<s n="n"/></l><r>mata<s n="n"/><b/>air<s n="n"/></r></p></e> -->
+      <e><p><l>marisia<s n="n"/></l><r>cabe<s n="n"/></r></p></e>
+      <e><p><l>marisia<s n="n"/></l><r>*rica</r></p></e>
+      <e><p><l>marisia<s n="n"/></l><r>lombok<s n="n"/></r></p></e>
+      <e><p><l>marova<s n="n"/></l><r>perang<s n="n"/></r></p></e>
+      <e><p><l>masa<s n="n"/></l><r>*tete</r></p></e>
+      <e><p><l>masa<s n="n"/></l><r>kakek<s n="n"/></r></p></e>
+      <e><p><l>masaso<s n="n"/></l><r>hidup<s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
+      <e><p><l>masian<s n="n"/></l><r>duda<s n="n"/></r></p></e>
+      <e><p><l>mawo<s n="n"/></l><r>gong<s n="n"/></r></p></e>
+      <!-- <e><p><l>mayana rau<s n="n"/></l><r>daun<s n="n"/><b/>*mayana</r></p></e> -->
+      <e><p><l>memei<s n="n"/></l><r>*om</r></p></e>
+      <e><p><l>mia<s n="n"/></l><r>mimpi<s n="n"/></r></p></e>
+      <!-- <e><p><l>mimiotari<s n="n"/></l><r>ikan<s n="n"/><b/>gabus<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>moga<s n="n"/></l><r>burung<s n="n"/><b/>gagak<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>momoi<s n="n"/></l><r>sukun<s n="vblex"/><b/>hutan<s n="n"/></r></p></e> -->
+      <e><p><l>momoi<s n="n"/></l><r>*gomo</r></p></e>
+      <e><p><l>mor<s n="n"/></l><r>biji<s n="n"/></r></p></e>
+      <e><p><l>mot<s n="n"/></l><r>kabut<s n="adj"/></r></p></e>
+      <!-- <e><p><l>mu<s n="n"/></l><r>ikan<s n="n"/><b/>puri<s n="n"/></r></p></e> -->
+      <e><p><l>mua<s n="n"/></l><r>laki<s n="n"/><s n="red"/><s n="pl"/></r></p></e>
+      <e><p><l>muna<s n="n"/></l><r>hujan<s n="n"/></r></p></e>
+      <!-- <e><p><l>mundia<s n="n"/></l><r>*gempah<b/>bumi<s n="n"/></r></p></e> -->
+      <e><p><l>muri<s n="n"/></l><r>kepiting<s n="n"/></r></p></e>
+      <!-- <e><p><l>musi<s n="n"/></l><r>*kangguru<b/>pohon<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>nandau<s n="n"/></l><r>asap<s n="n"/><b/>*dibikin<b/>dari<s n="pr"/><b/>daun<s n="n"/><b/>sagu<s n="n"/></r></p></e> -->
+      <e><p><l>nando<s n="n"/></l><r>pisang<s n="n"/></r></p></e>
+      <e><p><l>nawa<s n="n"/></l><r>keranjang<s n="n"/></r></p></e>
+      <e><p><l>neta katu<s n="n"/></l><r>adik<s n="n"/></r></p></e>
+      <e><p><l>neta vava<s n="n"/></l><r>kakak<s n="n"/></r></p></e>
+      <!-- <e><p><l>nginggisi<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>belalang<s n="n"/></r></p></e> -->
+      <e><p><l>nginggisi<s n="n"/></l><r>*jangkrik</r></p></e>
+      <!-- <e><p><l>ngonggo<s n="n"/></l><r>*segenis<b/>harmonika<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ngonggo<s n="n"/></l><r>kecapi<s n="n"/><b/>mulut<s n="n"/></r></p></e> -->
+      <e><p><l>niau<s n="n"/></l><r>kucing<s n="n"/></r></p></e>
+      <e><p><l>ningguai<s n="n"/></l><r>kunyit<s n="n"/></r></p></e>
+      <!-- <e><p><l>niniai<s n="n"/></l><r>pohon<s n="n"/><b/>*nibung</r></p></e> -->
+      <e><p><l>nioi<s n="n"/></l><r>pisau<s n="n"/></r></p></e>
+      <!-- <e><p><l>noni<s n="n"/></l><r>tongkat<s n="n"/><b/>*satan</r></p></e> -->
+      <e><p><l>nu<s n="n"/></l><r>pulau<s n="n"/></r></p></e>
+      <e><p><l>onta<s n="n"/></l><r>unta<s n="n"/></r></p></e>
+      <e><p><l>padamara<s n="n"/></l><r>lampu<s n="n"/></r></p></e>
+      <e><p><l>pam<s n="n"/></l><r>keluarga<s n="n"/></r></p></e>
+      <e><p><l>pam<s n="n"/></l><r>marga<s n="n"/></r></p></e>
+      <e><p><l>pandaya<s n="n"/></l><r>pistol<s n="n"/></r></p></e>
+      <e><p><l>pandaya<s n="n"/></l><r>senjata<s n="n"/></r></p></e>
+      <e><p><l>pandotu<s n="n"/></l><r>*tipa</r></p></e>
+      <!-- <e><p><l>papano<s n="n"/></l><r>karang<s n="n"/><b/>*lembek</r></p></e> -->
+      <!-- <e><p><l>papiri buo<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>buah<s n="n"/><b/>pohon<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>paramer<s n="n"/></l><r>kayu<s n="n"/><b/>*linggua</r></p></e> -->
+      <e><p><l>paramer<s n="n"/></l><r>*sonokembang</r></p></e>
+      <e><p><l>pare<s n="n"/></l><r>*nipa</r></p></e>
+      <!-- <e><p><l>pare ai raro<s n="n"/></l><r>hutan<s n="n"/><b/>bakau<s n="n"/></r></p></e> -->
+      <e><p><l>pare ai raro<s n="n"/></l><r>*nangro</r></p></e>
+      <e><p><l>parekiani<s n="n"/></l><r>singkong<s n="n"/></r></p></e>
+      <e><p><l>parekiani<s n="n"/></l><r>*kasbi</r></p></e>
+      <e><p><l>pas<s n="n"/></l><r>nasi<s n="n"/></r></p></e>
+      <e><p><l>pas<s n="n"/></l><r>beras<s n="n"/></r></p></e>
+      <e><p><l>pasar<s n="n"/></l><r>pasar<s n="n"/></r></p></e>
+      <!-- <e><p><l>paseda<s n="n"/></l><r>gelang<s n="n"/><b/>kerang<s n="n"/></r></p></e> -->
+      <e><p><l>pavuki<s n="n"/></l><r>jagung<s n="n"/></r></p></e>
+      <!-- <e><p><l>pensil<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*teripang</r></p></e> -->
+      <e><p><l>pepar<s n="n"/></l><r>jurang<s n="n"/></r></p></e>
+      <e><p><l>peta<s n="n"/></l><r>peta<s n="n"/></r></p></e>
+      <e><p><l>piamber(i)<s n="n"/></l><r>nanas<s n="n"/></r></p></e>
+      <e><p><l>piamber(i)<s n="n"/></l><r>*nenas</r></p></e>
+      <!-- <e><p><l>pianiau<s n="n"/></l><r>benda<s n="n"/><b/>ajar<s n="n"/><s n="actio"/><s n="ber"/></r></p></e> -->
+      <e><p><l>pibata<s n="n"/></l><r>kura-kura<s n="n"/></r></p></e>
+      <e><p><l>piderekari<s n="n"/></l><r>mangga<s n="n"/></r></p></e>
+      <e><p><l>pimarandi<s n="n"/></l><r>hias<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+      <e><p><l>pimarandi<s n="n"/></l><r>gelang<s n="n"/></r></p></e>
+      <e><p><l>pimbarakiai<s n="n"/></l><r>cincin<s n="n"/></r></p></e>
+      <e><p><l>pimuna<s n="n"/></l><r>babi<s n="n"/></r></p></e>
+      <!-- <e><p><l>piomberi<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*teripang</r></p></e> -->
+      <e><p><l>pipi<s n="n"/></l><r>uang<s n="n"/></r></p></e>
+      <e><p><l>pirie<s n="n"/></l><r>siput<s n="n"/></r></p></e>
+      <e><p><l>pirie<s n="n"/></l><r>*bia</r></p></e>
+      <!-- <e><p><l>pirie inara<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>karang<s n="n"/><b/>tempel<s n="vblex"/><b/>di<s n="pr"/><b/>batu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>pirie kuter<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>siput<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>pirie rawai<s n="n"/></l><r>kulit<s n="n"/><b/>siput<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>pirie tari<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*bia<b/>kecil<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>piriei uni<s n="n"/></l><r>*bia<b/>*garu</r></p></e> -->
+      <e><p><l>pirio<s n="n"/></l><r>daun<s n="n"/></r></p></e>
+      <e><p><l>pisia<s n="n"/></l><r>makan<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+      <e><p><l>pisibara<s n="n"/></l><r>*soa</r></p></e>
+      <!-- <e><p><l>pisibara<s n="n"/></l><r>kaki<s n="n"/><b/>empat<s n="num"/></r></p></e> -->
+      <e><p><l>piverotu<s n="n"/></l><r>tifa<s n="n"/></r></p></e>
+      <e><p><l>po<s n="n"/></l><r>depan<s n="n"/></r></p></e>
+      <e><p><l>ponori<s n="n"/></l><r>telur<s n="n"/></r></p></e>
+      <e><p><l>popoki<s n="n"/></l><r>*terung</r></p></e>
+      <!-- <e><p><l>poti<s n="n"/></l><r>kura-kura<s n="n"/><b/>laut<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>pranko<s n="n"/></l><r>*peranko</r></p></e>
+      <!-- <e><p><l>purumi<s n="n"/></l><r>*bia<b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>ra<s n="n"/></l><r>jalan<s n="n"/></r></p></e>
+      <!-- <e><p><l>rabua nina<s n="n"/></l><r>sekarang<s n="adv"/><b/>ini<s n="det"/><s n="dem"/></r></p></e> -->
+      <!-- <e><p><l>raimu<s n="n"/></l><r>daerah<s n="n"/><b/>teluk<s n="n"/></r></p></e> -->
+      <e><p><l>ramor<s n="n"/></l><r>manik<s n="n"/></r></p></e>
+      <e><p><l>ran(u)<s n="n"/></l><r>lagu<s n="n"/></r></p></e>
+      <e><p><l>ran(u)<s n="n"/></l><r>lagu<s n="n"/></r></p></e>
+      <!-- <e><p><l>randewa<s n="n"/></l><r>labuh<s n="adj"/><s n="subst"/><s n="pe-an"/><s n="sg"/><b/>perahu<s n="n"/></r></p></e> -->
+      <e><p><l>ranu<s n="n"/></l><r>lagu<s n="n"/></r></p></e>
+      <!-- <e><p><l>ranu sasiri<s n="n"/></l><r>lagu<s n="n"/><b/>adat<s n="n"/></r></p></e> -->
+      <e><p><l>rar(a)<s n="n"/></l><r>harta<s n="n"/></r></p></e>
+      <!-- <e><p><l>rarevai<s n="n"/></l><r>*bia<b/>putih<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>raria<s n="n"/></l><r>hari<s n="n"/></r></p></e>
+      <!-- <e><p><l>raria ari<s n="n"/></l><r>hari<s n="n"/><b/>*minggu</r></p></e> -->
+      <!-- <e><p><l>raria veramowas<s n="n"/></l><r>hari<s n="n"/><b/>akan<s n="adv"/><b/>datang<s n="vblex"/></r></p></e> -->
+      <e><p><l>raro<s n="n"/></l><r>dalam<s n="pr"/></r></p></e>
+      <!-- <e><p><l>raro<s n="n"/></l><r>sungai<s n="n"/><b/>dalam<s n="pr"/><b/>luas<s n="adj"/></r></p></e> -->
+      <e><p><l>raruo<s n="n"/></l><r>saudara<s n="n"/></r></p></e>
+      <e><p><l>rau<s n="n"/></l><r>leher<s n="n"/></r></p></e>
+      <e><p><l>rau<s n="n"/></l><r>daun<s n="n"/></r></p></e>
+      <e><p><l>rau<s n="n"/></l><r>sayur<s n="n"/></r></p></e>
+      <!-- <e><p><l>rau buema<s n="n"/></l><r>sayur<s n="n"/><b/>*gedi</r></p></e> -->
+      <e><p><l>rau kasasor<s n="n"/></l><r>tenggorok<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+      <e><p><l>rau kavat<s n="n"/></l><r>tenggorok<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>rau komawi<s n="n"/></l><r>sayur<s n="n"/><b/>bayam<s n="n"/></r></p></e> -->
+      <e><p><l>ravinie<s n="n"/></l><r>sore<s n="n"/></r></p></e>
+      <e><p><l>rawa<s n="n"/></l><r>benang<s n="n"/></r></p></e>
+      <e><p><l>rawa<s n="n"/></l><r>kulit<s n="n"/></r></p></e>
+      <e><p><l>rawana<s n="n"/></l><r>laut<s n="n"/></r></p></e>
+      <!-- <e><p><l>rawe<s n="n"/></l><r>burung<s n="n"/><b/>gagak<s n="n"/></r></p></e> -->
+      <e><p><l>rawe<s n="n"/></l><r>moga<s n="adv"/></r></p></e>
+      <e><p><l>rawesi<s n="n"/></l><r>belah<s n="n"/><s n="attr"/><s n="se"/></r></p></e>
+      <!-- <e><p><l>rawi<s n="n"/></l><r>air<s n="n"/><b/>muncul<s n="vblex"/></r></p></e> -->
+      <e><p><l>re<s n="n"/></l><r>air<s n="n"/></r></p></e>
+      <e><p><l>re<s n="n"/></l><r>ujung<s n="n"/></r></p></e>
+      <!-- <e><p><l>re karu buo<s n="n"/></l><r>air<s n="n"/><b/>mata<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>re tu<s n="n"/></l><r>bulu<s n="n"/><b/>mata<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>re vavuru<s n="n"/></l><r>alis<s n="n"/><b/>mata<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>re vavuru<s n="n"/></l><r>bulu<s n="n"/><b/>mata<s n="n"/></r></p></e> -->
+      <e><p><l>re worera<s n="n"/></l><r>dahi<s n="n"/></r></p></e>
+      <e><p><l>rebuki<s n="n"/></l><r>batu<s n="n"/></r></p></e>
+      <e><p><l>rebuosina<s n="n"/></l><r>dahi<s n="n"/></r></p></e>
+      <e><p><l>rei<s n="n"/></l><r>darat<s n="n"/></r></p></e>
+      <e><p><l>rema buo<s n="n"/></l><r>sirih<s n="n"/></r></p></e>
+      <!-- <e><p><l>repo<s n="n"/></l><r>Alkitab<s n="n"/><b/>*injil</r></p></e> -->
+      <e><p><l>ri<s n="n"/></l><r>luar<s n="n"/></r></p></e>
+      <!-- <e><p><l>riar<s n="n"/></l><r>tempat<s n="n"/><b/>luas<s n="adj"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>riat<s n="n"/></l><r>darah<s n="n"/></r></p></e>
+      <e><p><l>roi<s n="n"/></l><r>para<s n="n"/></r></p></e>
+      <e><p><l>romi<s n="n"/></l><r>kebun<s n="n"/></r></p></e>
+      <!-- <e><p><l>romi ai buo<s n="n"/></l><r>kebun<s n="n"/><b/>buah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>ron<s n="n"/></l><r>kayu<s n="n"/><b/>besi<s n="n"/></r></p></e> -->
+      <e><p><l>rora<s n="n"/></l><r>surga<s n="n"/></r></p></e>
+      <e><p><l>rosua<s n="n"/></l><r>kodok<s n="n"/></r></p></e>
+      <e><p><l>rota<s n="n"/></l><r>tas<s n="n"/></r></p></e>
+      <e><p><l>rota<s n="n"/></l><r>kantung<s n="n"/></r></p></e>
+      <e><p><l>rota<s n="n"/></l><r>*noken</r></p></e>
+      <!-- <e><p><l>rota sua<s n="n"/></l><r>*noken<b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>ru<s n="n"/></l><r>kepala<s n="n"/></r></p></e>
+      <e><p><l>ru nandau<s n="n"/></l><r>rambut<s n="n"/></r></p></e>
+      <e><p><l>rubua<s n="n"/></l><r>pasir<s n="n"/></r></p></e>
+      <e><p><l>rumit<s n="n"/></l><r>lumut<s n="n"/></r></p></e>
+      <e><p><l>ruru<s n="n"/></l><r>danau<s n="n"/></r></p></e>
+      <e><p><l>rurua<s n="n"/></l><r>*sirsak</r></p></e>
+      <!-- <e><p><l>rurua<s n="n"/></l><r>nangka<s n="n"/><b/>Belanda<s n="np"/><s n="loc"/><s n="sg"/></r></p></e> -->
+      <e><p><l>rusa<s n="n"/></l><r>rusa<s n="n"/></r></p></e>
+      <e><p><l>rusara<s n="n"/></l><r>*ceritera</r></p></e>
+      <e><p><l>rusasiwa<s n="n"/></l><r>tanduk<s n="n"/></r></p></e>
+      <e><p><l>rutu<s n="n"/></l><r>kutu<s n="n"/></r></p></e>
+      <!-- <e><p><l>rutu besaire<s n="n"/></l><r>kutu<s n="n"/><b/>busuk<s n="adj"/></r></p></e> -->
+      <e><p><l>ruwainunu<s n="n"/></l><r>roh<s n="n"/></r></p></e>
+      <!-- <e><p><l>ruwainunu sren<s n="n"/></l><r>roh<s n="n"/><b/>kudus<s n="adj"/></r></p></e> -->
+      <e><p><l>ruwera<s n="n"/></l><r>otak<s n="n"/></r></p></e>
+      <!-- <e><p><l>saba<s n="n"/></l><r>*pelepa<b/>sagu<s n="n"/></r></p></e> -->
+      <e><p><l>sama<s n="n"/></l><r>pantat<s n="n"/></r></p></e>
+      <e><p><l>sama kai<s n="n"/></l><r>ekor<s n="n"/></r></p></e>
+      <e><p><l>samaraka<s n="n"/></l><r>semangka<s n="n"/></r></p></e>
+      <e><p><l>sambaku<s n="n"/></l><r>tembakau<s n="n"/></r></p></e>
+      <!-- <e><p><l>sanai<s n="n"/></l><r>tombak<s n="n"/><b/>babi<s n="n"/></r></p></e> -->
+      <e><p><l>sanaipori<s n="n"/></l><r>langsat<s n="n"/></r></p></e>
+      <e><p><l>sanaivepori<s n="n"/></l><r>langsat<s n="n"/></r></p></e>
+      <e><p><l>sananai<s n="n"/></l><r>tombak<s n="n"/></r></p></e>
+      <e><p><l>sananioi<s n="n"/></l><r>tombak<s n="n"/></r></p></e>
+      <e><p><l>sane<s n="n"/></l><r>perut<s n="n"/></r></p></e>
+      <e><p><l>sanepaya<s n="n"/></l><r>pikir<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>saner<s n="n"/></l><r>kayu<s n="n"/><b/>besi<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sanewai<s n="n"/></l><r>tali<s n="n"/><b/>perut<s n="n"/></r></p></e> -->
+      <e><p><l>sanewai<s n="n"/></l><r>usus<s n="n"/></r></p></e>
+      <e><p><l>sano<s n="n"/></l><r>nama<s n="n"/></r></p></e>
+      <!-- <e><p><l>sapa<s n="n"/></l><r>gelang<s n="n"/><b/>dari<s n="pr"/><b/>kerang<s n="n"/></r></p></e> -->
+      <e><p><l>sapami<s n="n"/></l><r>belalang<s n="n"/></r></p></e>
+      <e><p><l>sapatu<s n="n"/></l><r>sepatu<s n="n"/></r></p></e>
+      <e><p><l>sapi<s n="n"/></l><r>sapi<s n="n"/></r></p></e>
+      <e><p><l>sapui<s n="n"/></l><r>*serei</r></p></e>
+      <e><p><l>sarak<s n="n"/></l><r>gelang<s n="n"/></r></p></e>
+      <e><p><l>sararer<s n="n"/></l><r>*jangkrik</r></p></e>
+      <!-- <e><p><l>sarata (rau)<s n="n"/></l><r>daun<s n="n"/><b/>gatal<s n="adj"/></r></p></e> -->
+      <e><p><l>sarata (rawana)<s n="n"/></l><r>ubur-ubur<s n="n"/></r></p></e>
+      <!-- <e><p><l>sarata (rawana)<s n="n"/></l><r>*papeda<b/>laut<s n="n"/></r></p></e> -->
+      <e><p><l>sarawi<s n="n"/></l><r>layar<s n="n"/></r></p></e>
+      <e><p><l>sarepa<s n="n"/></l><r>embun<s n="n"/></r></p></e>
+      <!-- <e><p><l>sarou<s n="n"/></l><r>*nangro<b/>kecil<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>sarowi<s n="n"/></l><r>ikan<s n="n"/><b/>paus<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sasami<s n="n"/></l><r>rotan<s n="n"/><b/>tanah<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>sasi<s n="n"/></l><r>garam<s n="n"/></r></p></e>
+      <!-- <e><p><l>sasi<s n="n"/></l><r>air<s n="n"/><b/>laut<s n="n"/></r></p></e> -->
+      <e><p><l>sasi<s n="n"/></l><r>tahi<s n="n"/></r></p></e>
+      <e><p><l>sasi<s n="n"/></l><r>*berak</r></p></e>
+      <!-- <e><p><l>sasi<s n="n"/></l><r>(<s n="lpar"/><b/>air<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>sasi dire<s n="n"/></l><r>pinggir<s n="n"/><b/>laut<s n="n"/></r></p></e> -->
+      <e><p><l>sasu<s n="n"/></l><r>baju<s n="n"/></r></p></e>
+      <e><p><l>sasu<s n="n"/></l><r>pakai<s n="vblex"/><s n="subst"/><s n="san"/><s n="sg"/></r></p></e>
+      <e><p><l>sasu sama<s n="n"/></l><r>celana<s n="n"/></r></p></e>
+      <e><p><l>sasu vara<s n="n"/></l><r>kemeja<s n="n"/></r></p></e>
+      <!-- <e><p><l>saveri<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*bia<b/>besar<s n="adj"/></r></p></e> -->
+      <e><p><l>savi-savi<s n="n"/></l><r>ulat<s n="n"/></r></p></e>
+      <!-- <e><p><l>savu<s n="n"/></l><r>buah<s n="n"/><b/>pinang<s n="n"/></r></p></e> -->
+      <e><p><l>sawa<s n="n"/></l><r>kapur<s n="n"/></r></p></e>
+      <e><p><l>sawani<s n="n"/></l><r>suami<s n="n"/></r></p></e>
+      <e><p><l>sembie<s n="n"/></l><r>bulan<s n="n"/></r></p></e>
+      <!-- <e><p><l>sembiei tiutira<s n="n"/></l><r>bulan<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>sembiei viesawarou<s n="n"/></l><r>bulan<s n="n"/><b/>sabit<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sende<s n="n"/></l><r>mata<s n="n"/><b/>perahu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>senderei<s n="n"/></l><r>bagian<s n="n"/><b/>perahu<s n="n"/><b/>*semang</r></p></e> -->
+      <!-- <e><p><l>sendevara<s n="n"/></l><r>tangan<s n="n"/><b/>perahu<s n="n"/></r></p></e> -->
+      <e><p><l>sera<s n="n"/></l><r>jaring<s n="n"/></r></p></e>
+      <!-- <e><p><l>serei<s n="n"/></l><r>kain<s n="n"/><b/>*sarong</r></p></e> -->
+      <!-- <e><p><l>seren<s n="n"/></l><r>tempat<s n="n"/><b/>suci<s n="adj"/></r></p></e> -->
+      <e><p><l>sereni<s n="n"/></l><r>pepaya<s n="n"/></r></p></e>
+      <!-- <e><p><l>sereni rau<s n="n"/></l><r>daun<s n="n"/><b/>pepaya<s n="n"/></r></p></e> -->
+      <e><p><l>setinunuma<s n="n"/></l><r>pistol<s n="n"/></r></p></e>
+      <!-- <e><p><l>sianggono<s n="n"/></l><r>buah<s n="n"/><b/>merah<s n="n"/><b/>pandan<s n="n"/></r></p></e> -->
+      <e><p><l>sien<s n="n"/></l><r>*tuhan</r></p></e>
+      <e><p><l>sien<s n="n"/></l><r>*Allah</r></p></e>
+      <e><p><l>sievis<s n="n"/></l><r>pelangi<s n="n"/></r></p></e>
+      <e><p><l>sikop<s n="n"/></l><r>*sekop</r></p></e>
+      <e><p><l>simonbuon<s n="n"/></l><r>gula<s n="n"/></r></p></e>
+      <!-- <e><p><l>simuti<s n="n"/></l><r>jeruk<s n="n"/><b/>manis<s n="adj"/></r></p></e> -->
+      <e><p><l>simuti<s n="n"/></l><r>lemon<s n="n"/></r></p></e>
+      <!-- <e><p><l>simuti katu<s n="n"/></l><r>jeruk<s n="n"/><b/>nipis<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>simuti pimasa<s n="n"/></l><r>jeruk<s n="n"/><b/>*bali</r></p></e> -->
+      <!-- <e><p><l>simuti sina<s n="n"/></l><r>jeruk<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>sina<s n="n"/></l><r>duri<s n="n"/></r></p></e>
+      <e><p><l>sina<s n="n"/></l><r>tulang<s n="n"/></r></p></e>
+      <!-- <e><p><l>since<s n="n"/></l><r>anak<s n="n"/><b/>perempuan<s n="n"/></r></p></e> -->
+      <e><p><l>singa<s n="n"/></l><r>singa<s n="n"/></r></p></e>
+      <e><p><l>sinia<s n="n"/></l><r>ibu<s n="n"/></r></p></e>
+      <!-- <e><p><l>sinia buai<s n="n"/></l><r>kakak<s n="n"/><b/>perempuan<s n="n"/><b/>bapak<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sinia buai<s n="n"/></l><r>mama<s n="n"/><b/>tua<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>sinia katu<s n="n"/></l><r>adik<s n="n"/><b/>ibu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sinia katu<s n="n"/></l><r>mama<s n="n"/><b/>adik<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sinia verau tutiri<s n="n"/></l><r>mama<s n="n"/><b/>tiri<s n="n"/></r></p></e> -->
+      <e><p><l>sinitu<s n="n"/></l><r>orang<s n="n"/></r></p></e>
+      <e><p><l>sintu<s n="n"/></l><r>manusia<s n="n"/></r></p></e>
+      <e><p><l>sintu<s n="n"/></l><r>orang<s n="n"/></r></p></e>
+      <e><p><l>sis<s n="n"/></l><r>kain<s n="n"/></r></p></e>
+      <!-- <e><p><l>sisera amber<s n="n"/></l><r>orang<s n="n"/><b/>Eropa<s n="np"/><s n="loc"/><s n="sg"/></r></p></e> -->
+      <!-- <e><p><l>sisera amber<s n="n"/></l><r>orang<s n="n"/><b/>barat<s n="n"/></r></p></e> -->
+      <e><p><l>sisera amber<s n="n"/></l><r>*bule</r></p></e>
+      <e><p><l>sivererei<s n="n"/></l><r>bintang<s n="n"/></r></p></e>
+      <!-- <e><p><l>soma<s n="n"/></l><r>bagian<s n="n"/><b/>perahu<s n="n"/><b/>*cadik</r></p></e> -->
+      <!-- <e><p><l>soma<s n="n"/></l><r>*semang<b/>perahu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>somasi<s n="n"/></l><r>*keong<b/>hutan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>somotui<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>tikus<s n="n"/><b/>yang<s n="rel"/><b/>makan<s n="vblex"/><b/>buah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sondiei<s n="n"/></l><r>kuskus<s n="n"/><b/>tanah<s n="n"/></r></p></e> -->
+      <e><p><l>sondo<s n="n"/></l><r>sendok<s n="n"/></r></p></e>
+      <e><p><l>sor<s n="n"/></l><r>sarung<s n="n"/></r></p></e>
+      <e><p><l>sora<s n="n"/></l><r>celah<s n="n"/></r></p></e>
+      <e><p><l>sore<s n="n"/></l><r>mulut<s n="n"/></r></p></e>
+      <e><p><l>sore<s n="n"/></l><r>bibir<s n="n"/></r></p></e>
+      <e><p><l>sore papo<s n="n"/></l><r>liur<s n="n"/></r></p></e>
+      <!-- <e><p><l>sore papo<s n="n"/></l><r>air<s n="n"/><b/>mulut<s n="n"/></r></p></e> -->
+      <e><p><l>sore tapare<s n="n"/></l><r>lidah<s n="n"/></r></p></e>
+      <e><p><l>sotauri<s n="n"/></l><r>tombak<s n="n"/></r></p></e>
+      <e><p><l>sotauri<s n="n"/></l><r>*menombak</r></p></e>
+      <e><p><l>suep<s n="n"/></l><r>*goa</r></p></e>
+      <e><p><l>suep<s n="n"/></l><r>gua<s n="n"/></r></p></e>
+      <e><p><l>sumbe<s n="n"/></l><r>parang<s n="n"/></r></p></e>
+      <e><p><l>sumo<s n="n"/></l><r>tante<s n="n"/></r></p></e>
+      <e><p><l>suo<s n="n"/></l><r>tanjung<s n="n"/></r></p></e>
+      <e><p><l>suo<s n="n"/></l><r>hidung<s n="n"/></r></p></e>
+      <!-- <e><p><l>suo kamberei<s n="n"/></l><r>lubang<s n="n"/><b/>hidung<s n="n"/></r></p></e> -->
+      <e><p><l>suo mamu<s n="n"/></l><r>*ingus</r></p></e>
+      <!-- <e><p><l>suomabut<s n="n"/></l><r>tikus<s n="n"/><b/>tanah<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>suomus<s n="n"/></l><r>ikan<s n="n"/><b/>hiu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>suomus<s n="n"/></l><r>ikan<s n="n"/><b/>*mangiwangi</r></p></e> -->
+      <e><p><l>suopapus<s n="n"/></l><r>busa<s n="n"/></r></p></e>
+      <!-- <e><p><l>suora sasu<s n="n"/></l><r>*sarong<b/>baju<s n="n"/></r></p></e> -->
+      <e><p><l>suovavuru<s n="n"/></l><r>kumis<s n="n"/></r></p></e>
+      <e><p><l>surate<s n="n"/></l><r>surat<s n="n"/></r></p></e>
+      <e><p><l>surpoti<s n="n"/></l><r>sisir<s n="n"/></r></p></e>
+      <!-- <e><p><l>susu<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*teripang</r></p></e> -->
+      <!-- <e><p><l>tabariati<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>kerang<s n="n"/></r></p></e> -->
+      <e><p><l>tabura<s n="n"/></l><r>*triton</r></p></e>
+      <e><p><l>tai<s n="n"/></l><r>bapak<s n="n"/></r></p></e>
+      <e><p><l>tama<s n="n"/></l><r>bapak<s n="n"/></r></p></e>
+      <e><p><l>tama<s n="n"/></l><r>kapak<s n="n"/></r></p></e>
+      <!-- <e><p><l>tama verau tutiri<s n="n"/></l><r>bapak<s n="n"/><b/>tiri<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>tamambanei<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>pohon<s n="n"/></r></p></e> -->
+      <e><p><l>tanduk<s n="n"/></l><r>tanduk<s n="n"/></r></p></e>
+      <e><p><l>tapu<s n="n"/></l><r>nenek<s n="n"/></r></p></e>
+      <e><p><l>tapu<s n="n"/></l><r>kakek<s n="n"/></r></p></e>
+      <e><p><l>tapu<s n="n"/></l><r>cucu<s n="n"/></r></p></e>
+      <!-- <e><p><l>tara<s n="n"/></l><r>tombak<s n="n"/><b/>ikan<s n="n"/></r></p></e> -->
+      <e><p><l>tarai<s n="n"/></l><r>badan<s n="n"/></r></p></e>
+      <e><p><l>tarai<s n="n"/></l><r>daging<s n="n"/></r></p></e>
+      <e><p><l>tarakondi<s n="n"/></l><r>telinga<s n="n"/></r></p></e>
+      <e><p><l>tararai<s n="n"/></l><r>pipi<s n="n"/></r></p></e>
+      <!-- <e><p><l>tararai makobar<s n="n"/></l><r>lesung<s n="n"/><b/>pipi<s n="n"/></r></p></e> -->
+      <e><p><l>tatar<s n="n"/></l><r>dosa<s n="n"/></r></p></e>
+      <e><p><l>tati<s n="n"/></l><r>*tete</r></p></e>
+      <e><p><l>tatopa<s n="n"/></l><r>cerita<s n="n"/></r></p></e>
+      <e><p><l>tau<s n="n"/></l><r>sagu<s n="n"/></r></p></e>
+      <!-- <e><p><l>tau asu<s n="n"/></l><r>sagu<s n="n"/><b/>campur<s n="vblex"/><b/>dengan<s n="pr"/><b/>buah<s n="n"/><b/>hitam<s n="n"/></r></p></e> -->
+      <e><p><l>taune<s n="n"/></l><r>tahun<s n="n"/></r></p></e>
+      <!-- <e><p><l>tavai<s n="n"/></l><r>angin<s n="n"/><b/>kecil<s n="adj"/></r></p></e> -->
+      <e><p><l>tavai<s n="n"/></l><r>*sepoi</r></p></e>
+      <e><p><l>tawa<s n="n"/></l><r>*matoa</r></p></e>
+      <e><p><l>tawai<s n="n"/></l><r>ular<s n="n"/></r></p></e>
+      <e><p><l>tenam<s n="n"/></l><r>hidup<s n="vblex"/></r></p></e>
+      <e><p><l>tenam<s n="n"/></l><r>hidup<s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
+      <e><p><l>timuri<s n="n"/></l><r>*cassava</r></p></e>
+      <!-- <e><p><l>timuri rau<s n="n"/></l><r>daun<s n="n"/><b/>singkong<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>tiup<s n="n"/></l><r>asap<s n="n"/><b/>banyak<s n="adj"/></r></p></e> -->
+      <e><p><l>toko<s n="n"/></l><r>toko<s n="n"/></r></p></e>
+      <!-- <e><p><l>tomboro<s n="n"/></l><r>burung<s n="n"/><b/>*hantuk</r></p></e> -->
+      <!-- <e><p><l>tonggiau<s n="n"/></l><r>rotan<s n="n"/><b/>tanah<s n="n"/></r></p></e> -->
+      <e><p><l>toples<s n="n"/></l><r>*toples</r></p></e>
+      <e><p><l>tu<s n="n"/></l><r>bulu<s n="n"/></r></p></e>
+      <e><p><l>tu<s n="n"/></l><r>teluk<s n="n"/></r></p></e>
+      <e><p><l>tuba<s n="n"/></l><r>pucuk<s n="n"/></r></p></e>
+      <!-- <e><p><l>tuvo<s n="n"/></l><r>orang<s n="n"/><b/>kuasa<s n="n"/><s n="actio"/><s n="ber"/><b/>daerah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>tuvo<s n="n"/></l><r>*orand<b/>suci<s n="adj"/></r></p></e> -->
+      <e><p><l>unu<s n="n"/></l><r>madu<s n="n"/></r></p></e>
+      <e><p><l>uta(n)<s n="n"/></l><r>tempat<s n="n"/></r></p></e>
+      <e><p><l>uta(n)<s n="n"/></l><r>cuaca<s n="n"/></r></p></e>
+      <e><p><l>uvi<s n="n"/></l><r>ubi<s n="n"/></r></p></e>
+      <e><p><l>uvi<s n="n"/></l><r>talas<s n="n"/></r></p></e>
+      <e><p><l>uvi<s n="n"/></l><r>*petatas</r></p></e>
+      <!-- <e><p><l>uwi rau<s n="n"/></l><r>daun<s n="n"/><b/>*petatas</r></p></e> -->
+      <!-- <e><p><l>vakirin<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>kodok<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <e><p><l>vara<s n="n"/></l><r>tangan<s n="n"/></r></p></e>
+      <!-- <e><p><l>vara kei katu<s n="n"/></l><r>jari<s n="n"/><b/>*kelingking</r></p></e> -->
+      <!-- <e><p><l>vara kei rabua<s n="n"/></l><r>jari<s n="n"/><b/>tengah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>vara kei rabua<s n="n"/></l><r>jari<s n="n"/><b/>manis<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>vara kei sinia<s n="n"/></l><r>ibu<s n="n"/><b/>jari<s n="n"/></r></p></e> -->
+      <e><p><l>vara kiai<s n="n"/></l><r>jari<s n="n"/></r></p></e>
+      <!-- <e><p><l>vara kiai dir<s n="n"/></l><r>kuku<s n="n"/><b/>jari<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>vara kiai virusara<s n="n"/></l><r>jari<s n="n"/><b/>*telunjuk</r></p></e> -->
+      <!-- <e><p><l>vara komboti<s n="n"/></l><r>otot<s n="n"/><b/>tangan<s n="n"/><b/>atas<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>vara tarai<s n="n"/></l><r>tangan<s n="n"/><s n="nya"/><b/>ada<s n="vblex"/><b/>isi<s n="n"/></r></p></e> -->
+      <e><p><l>varabuo<s n="n"/></l><r>bahu<s n="n"/></r></p></e>
+      <e><p><l>varadiara<s n="n"/></l><r>bahu<s n="n"/></r></p></e>
+      <e><p><l>varakamai<s n="n"/></l><r>tangan<s n="n"/></r></p></e>
+      <e><p><l>varakamai<s n="n"/></l><r>gelang<s n="n"/><s n="per-an"/><s n="sg"/></r></p></e>
+      <e><p><l>vararau<s n="n"/></l><r>*sayap</r></p></e>
+      <!-- <e><p><l>varava<s n="n"/></l><r>telapak<s n="n"/><b/>tangan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>varavu<s n="n"/></l><r>pinggir<s n="n"/><b/>rumah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>vava<s n="n"/></l><r>di<s n="pr"/><b/>bawah<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>vavesapo<s n="n"/></l><r>pesawat<s n="n"/><b/>terbang<s n="vblex"/></r></p></e> -->
+      <e><p><l>vavi<s n="n"/></l><r>perempuan<s n="n"/></r></p></e>
+      <!-- <e><p><l>vavo<s n="n"/></l><r>di<s n="pr"/><b/>atas<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>vekatar<s n="n"/></l><r>kuskus<s n="n"/><b/>pohon<s n="n"/></r></p></e> -->
+      <e><p><l>vemai<s n="n"/></l><r>lemak<s n="n"/></r></p></e>
+      <e><p><l>vemai<s n="n"/></l><r>gemuk<s n="adj"/></r></p></e>
+      <e><p><l>venamaria<s n="n"/></l><r>belut<s n="n"/></r></p></e>
+      <e><p><l>venavavo<s n="n"/></l><r>kuskus<s n="n"/></r></p></e>
+      <!-- <e><p><l>vepori mararau<s n="n"/></l><r>belalang<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>veradiru<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*teripang</r></p></e> -->
+      <e><p><l>vera-vera<s n="n"/></l><r>kilat<s n="n"/></r></p></e>
+      <!-- <e><p><l>veru mon<s n="n"/></l><r>tukang<s n="n"/><b/>sihir<s n="n"/></r></p></e> -->
+      <e><p><l>veru mon<s n="n"/></l><r>dukun<s n="n"/></r></p></e>
+      <!-- <e><p><l>viarini<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>*teripang</r></p></e> -->
+      <e><p><l>vienana<s n="n"/></l><r>*nana</r></p></e>
+      <e><p><l>vinie<s n="n"/></l><r>istri<s n="n"/></r></p></e>
+      <e><p><l>visa<s n="n"/></l><r>nenek<s n="n"/></r></p></e>
+      <e><p><l>visisiwa<s n="n"/></l><r>tunas<s n="n"/></r></p></e>
+      <e><p><l>vo<s n="n"/></l><r>dayung<s n="n"/></r></p></e>
+      <e><p><l>vuvusa<s n="n"/></l><r>hati<s n="n"/></r></p></e>
+      <e><p><l>wa<s n="n"/></l><r>perahu<s n="n"/></r></p></e>
+      <!-- <e><p><l>wa sarawi<s n="n"/></l><r>perahu<s n="n"/><b/>layar<s n="n"/></r></p></e> -->
+      <e><p><l>wa vesapo<s n="n"/></l><r>pesawat<s n="n"/></r></p></e>
+      <e><p><l>wai<s n="n"/></l><r>tali<s n="n"/></r></p></e>
+      <!-- <e><p><l>wai biriani<s n="n"/></l><r>jenis<s n="n"/><s n="attr"/><s n="se"/><b/>tali<s n="n"/><b/>pohon<s n="n"/><b/>makan<s n="vblex"/><s n="pasv"/><b/>kuskus<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>wai bita<s n="n"/></l><r>tali<s n="n"/><b/>rotan<s n="n"/></r></p></e> -->
+      <e><p><l>wair<s n="n"/></l><r>urat<s n="n"/></r></p></e>
+      <!-- <e><p><l>wakera<s n="n"/></l><r>*kangguru<b/>pohon<s n="n"/></r></p></e> -->
+      <e><p><l>wam<s n="n"/></l><r>darah<s n="n"/></r></p></e>
+      <!-- <e><p><l>wamar<s n="n"/></l><r>burung<s n="n"/><b/>tahun<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>wamesa<s n="n"/></l><r>ikan<s n="n"/><b/>*buntal</r></p></e> -->
+      <!-- <e><p><l>wamesa<s n="n"/></l><r>ikan<s n="n"/><b/>*poro<b/>bibi<s n="n"/></r></p></e> -->
+      <e><p><l>wana<s n="n"/></l><r>angin<s n="n"/></r></p></e>
+      <!-- <e><p><l>wana saso<s n="n"/></l><r>angin<s n="n"/><b/>ribut<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>wanggar<s n="n"/></l><r>tikus<s n="n"/><b/>rumah<s n="n"/></r></p></e> -->
+      <e><p><l>wanunu<s n="n"/></l><r>bayang<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>war<s n="n"/></l><r>akar<s n="n"/><b/>kayu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>wara tu<s n="n"/></l><r>bulu<s n="n"/><b/>badan<s n="n"/></r></p></e> -->
+      <e><p><l>ware<s n="n"/></l><r>pagar<s n="n"/></r></p></e>
+      <e><p><l>wasarau<s n="n"/></l><r>kertas<s n="n"/></r></p></e>
+      <e><p><l>wasarau<s n="n"/></l><r>surat<s n="n"/></r></p></e>
+      <e><p><l>wera<s n="n"/></l><r>sumsum<s n="n"/></r></p></e>
+      <!-- <e><p><l>weta<s n="n"/></l><r>baki<s n="n"/><b/>dari<s n="pr"/><b/>*pelepa<b/>sagu<s n="n"/></r></p></e> -->
+      <e><p><l>wevewi<s n="n"/></l><r>bukit<s n="n"/></r></p></e>
+      <e><p><l>wis<s n="n"/></l><r>gunung<s n="n"/></r></p></e>
+      <e><p><l>wisa<s n="n"/></l><r>nenek<s n="n"/></r></p></e>
+      <e><p><l>wominggo<s n="n"/></l><r>susah<s n="adj"/></r></p></e>
+      <e><p><l>wominggo<s n="n"/></l><r>duka<s n="adj"/></r></p></e>
+      <e><p><l>wona<s n="n"/></l><r>anjing<s n="n"/></r></p></e>
+      <!-- <e><p><l>wonggei<s n="n"/></l><r>burung<s n="n"/><b/>kasuari<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>wonggia<s n="n"/></l><r>belah<s n="n"/><s n="attr"/><s n="se"/><b/>perahu<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>wonioi<s n="n"/></l><r>*mangkok<b/>*sempe</r></p></e> -->
+      <e><p><l>wopi<s n="n"/></l><r>empedu<s n="n"/></r></p></e>
+      <e><p><l>wor<s n="n"/></l><r>matahari<s n="n"/></r></p></e>
+      <e><p><l>wuyu<s n="n"/></l><r>asap<s n="n"/></r></p></e>
+      <e><p><l>yaba<s n="n"/></l><r>rumah<s n="n"/></r></p></e>
+      <e><p><l>yai<s n="n"/></l><r>bapak<s n="n"/></r></p></e>
+      <e><p><l>yai<s n="n"/></l><r>papa<s n="adj"/></r></p></e>
+      <e><p><l>yar<s n="n"/></l><r>karang<s n="n"/></r></p></e>
+      <!-- <e><p><l>yer<s n="n"/></l><r>akar<s n="n"/><b/>tuba<s n="n"/></r></p></e> -->
+      <e><p><l>at<s n="num"/></l><r>empat<s n="num"/></r></p></e>
+      <e><p><l>muandu<s n="num"/></l><r>dua<s n="num"/></r></p></e>
+      <e><p><l>rim e at<s n="num"/></l><r>sembilan<s n="num"/></r></p></e>
+      <e><p><l>rim e muandu<s n="num"/></l><r>tujuh<s n="num"/></r></p></e>
+      <e><p><l>rim e siri<s n="num"/></l><r>enam<s n="num"/></r></p></e>
+      <e><p><l>rim e toru<s n="num"/></l><r>delapan<s n="num"/></r></p></e>
+      <e><p><l>rime<s n="num"/></l><r>lima<s n="num"/></r></p></e>
+      <e><p><l>rime at<s n="num"/></l><r>sembilan<s n="num"/></r></p></e>
+      <e><p><l>rime muandu<s n="num"/></l><r>tujuh<s n="num"/></r></p></e>
+      <e><p><l>rime siri<s n="num"/></l><r>enam<s n="num"/></r></p></e>
+      <e><p><l>rime toru<s n="num"/></l><r>delapan<s n="num"/></r></p></e>
+      <e><p><l>siaran<s n="num"/></l><r>ratus<s n="n"/></r></p></e>
+      <!-- <e><p><l>siaran toru<s n="num"/></l><r>tiga<s n="num"/><b/>puluh<s n="n"/></r></p></e> -->
+      <e><p><l>siri<s n="num"/></l><r>satu<s n="num"/></r></p></e>
+      <e><p><l>sura<s n="num"/></l><r>sepuluh<s n="num"/></r></p></e>
+      <!-- <e><p><l>sura e at<s n="num"/></l><r>empat<s n="num"/><b/>belas<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sura e muandu<s n="num"/></l><r>dua<s n="num"/><b/>belas<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sura e rime at<s n="num"/></l><r>sembilan<s n="num"/><b/>belas<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sura e rime muandu<s n="num"/></l><r>tujuh<s n="num"/><b/>belas<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sura e rime siri<s n="num"/></l><r>enam<s n="num"/><b/>belas<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>sura e rime toru<s n="num"/></l><r>delapan<s n="num"/><b/>belas<s n="n"/></r></p></e> -->
+      <e><p><l>sura e siri<s n="num"/></l><r>sebelas<s n="num"/></r></p></e>
+      <!-- <e><p><l>sura e toru<s n="num"/></l><r>tiga<s n="num"/><b/>belas<s n="n"/></r></p></e> -->
+      <e><p><l>toru<s n="num"/></l><r>tiga<s n="num"/></r></p></e>
+      <!-- <e><p><l>utin<s n="num"/></l><r>dua<s n="num"/><b/>puluh<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>utin siri<s n="num"/></l><r>dua<s n="num"/><b/>puluh<s n="n"/><b/>satu<s n="num"/></r></p></e> -->
+      <!-- <e><p><l>utin siri<s n="num"/></l><r>dua<s n="num"/><b/>puluh<s n="n"/></r></p></e> -->
+      <e><p><l>penai<s n="prt"/></l><r>jangan<s n="adv"/></r></p></e>
+      <e><p><l>pivai<s n="prt"/></l><r>tidak<s n="adv"/></r></p></e>
+      <e><p><l>sa<s n="prt"/></l><r>jangan<s n="adv"/></r></p></e>
+      <!-- <e><p><l>te<s n="prt"/></l><r>kata<s n="n"/><b/>tanya<s n="n"/><s n="per-an"/><s n="sg"/></r></p></e> -->
+      <e><p><l>te<s n="prt"/></l><r>to<s n="n"/></r></p></e>
+      <e><p><l>te<s n="prt"/></l><r>kan<s n="n"/></r></p></e>
+      <e><p><l>va<s n="prt"/></l><r>tidak<s n="adv"/></r></p></e>
+      <e><p><l>do<s n="pr"/></l><r>ke<s n="pr"/></r></p></e>
+      <e><p><l>na<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
+      <e><p><l>pui<s n="pr"/></l><r>belakang<s n="n"/></r></p></e>
+      <e><p><l>siwa(re)<s n="pr"/></l><r>dekat<s n="adj"/></r></p></e>
+      <e><p><l>so<s n="pr"/></l><r>ke<s n="pr"/></r></p></e>
+      <e><p><l>so<s n="pr"/></l><r>kepada<s n="pr"/></r></p></e>
+      <!-- <e><p><l>susa<s n="pr"/></l><r>ke<s n="pr"/><b/>dalam<s n="pr"/></r></p></e> -->
+      <e><p><l>to<s n="pr"/></l><r>sampai<s n="cnjsub"/></r></p></e>
+      <e><p><l>tua<s n="pr"/></l><r>lewat<s n="vblex"/></r></p></e>
+      <e><p><l>tuti(re)<s n="pr"/></l><r>dengan<s n="pr"/></r></p></e>
+      <e><p><l>tuti(re)<s n="pr"/></l><r>sama<s n="adj"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>veito<s n="pr"/></l><r>sampai<s n="cnjsub"/></r></p></e>
+      <e><p><l>ama(te)<s n="prn"/></l><r>kami<s n="prn"/><s n="p1"/><s n="red"/><s n="pl"/></r></p></e>
+      <!-- <e><p><l>amatoru<s n="prn"/></l><r>kami<s n="prn"/><s n="p1"/><s n="red"/><s n="pl"/><b/>tiga<s n="num"/></r></p></e> -->
+      <e><p><l>andi<s n="prn"/></l><r>dia<s n="prn"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>au<s n="prn"/></l><r>anda<s n="prn"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i<s n="prn"/></l><r>dia<s n="prn"/><s n="p3"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>mandu<s n="prn"/></l><r>kalian<s n="prn"/><s n="p2"/><s n="red"/><s n="pl"/><b/>dua<s n="num"/></r></p></e> -->
+      <!-- <e><p><l>mandu<s n="prn"/></l><r>kamu<s n="prn"/><s n="p2"/><s n="sg"/><b/>dua<s n="num"/><b/>(<s n="lpar"/><b/>*Papua</r></p></e> -->
+      <!-- <e><p><l>metoru<s n="prn"/></l><r>kalian<s n="prn"/><s n="p2"/><s n="red"/><s n="pl"/><b/>tiga<s n="num"/></r></p></e> -->
+      <!-- <e><p><l>metoru<s n="prn"/></l><r>kamu<s n="prn"/><s n="p2"/><s n="sg"/><b/>tiga<s n="num"/><b/>(<s n="lpar"/><b/>*Papua</r></p></e> -->
+      <!-- <e><p><l>mia vura<s n="prn"/></l><r>kamu<s n="prn"/><s n="p2"/><s n="sg"/><b/>semua<s n="prn"/><s n="tn"/></r></p></e> -->
+      <!-- <e><p><l>mia vura<s n="prn"/></l><r>kalian<s n="prn"/><s n="p2"/><s n="red"/><s n="pl"/><b/>semua<s n="prn"/><s n="tn"/></r></p></e> -->
+      <e><p><l>mia(te)<s n="prn"/></l><r>kalian<s n="prn"/><s n="p2"/><s n="red"/><s n="pl"/></r></p></e>
+      <!-- <e><p><l>mia(te)<s n="prn"/></l><r>kamu<s n="prn"/><s n="p2"/><s n="sg"/><b/>(<s n="lpar"/><b/>*Papua</r></p></e> -->
+      <!-- <e><p><l>nandu<s n="prn"/></l><r>kami<s n="prn"/><s n="p1"/><s n="red"/><s n="pl"/><b/>dua<s n="num"/></r></p></e> -->
+      <!-- <e><p><l>sandu<s n="prn"/></l><r>mereka<s n="prn"/><s n="p3"/><s n="red"/><s n="pl"/><b/>dua<s n="num"/></r></p></e> -->
+      <!-- <e><p><l>setoru<s n="prn"/></l><r>mereka<s n="prn"/><s n="p3"/><s n="red"/><s n="pl"/><b/>tiga<s n="num"/></r></p></e> -->
+      <e><p><l>sia<s n="prn"/></l><r>mereka<s n="prn"/><s n="p3"/><s n="red"/><s n="pl"/></r></p></e>
+      <!-- <e><p><l>tandu<s n="prn"/></l><r>kita<s n="prn"/><s n="p1"/><s n="red"/><s n="pl"/><b/>dua<s n="num"/></r></p></e> -->
+      <e><p><l>tata<s n="prn"/></l><r>kita<s n="prn"/><s n="p1"/><s n="red"/><s n="pl"/></r></p></e>
+      <!-- <e><p><l>tatoru<s n="prn"/></l><r>kita<s n="prn"/><s n="p1"/><s n="red"/><s n="pl"/><b/>tiga<s n="num"/></r></p></e> -->
+      <e><p><l>yau<s n="prn"/></l><r>saya<s n="prn"/><s n="p1"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>Mariava<s n="np"/></l><r>nama<s n="n"/><b/>kali<s n="n"/><b/>hutan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>Wapupi<s n="np"/></l><r>pulau<s n="n"/><b/>dekat<s n="adj"/><b/>kampung<s n="n"/><b/>*Windesi</r></p></e> -->
+      <!-- <e><p><l>Wariowi<s n="np"/></l><r>nama<s n="n"/><b/>kali<s n="n"/><b/>hutan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>Wotuai<s n="np"/></l><r>nama<s n="n"/><b/>kali<s n="n"/><b/>hutan<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>Yob<s n="np"/></l><r>pulau<s n="n"/><b/>dekat<s n="adj"/><b/>teluk<s n="n"/><b/>*Wondama</r></p></e> -->
+      <e><p><l>a<s n="v"/></l><r>makan<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>adiat<s n="v"/></l><r>cari<s n="vblex"/><b/>ikan<s n="n"/><b/>*pake<b/>lampu<s n="n"/></r></p></e> -->
+      <e><p><l>adiava<s n="v"/></l><r>dengar<s n="vblex"/></r></p></e>
+      <e><p><l>adu<s n="v"/></l><r>dagang<s n="n"/></r></p></e>
+      <e><p><l>adu<s n="v"/></l><r>tukar<s n="vblex"/></r></p></e>
+      <e><p><l>amise<s n="v"/></l><r>*suruh</r></p></e>
+      <e><p><l>ana<s n="v"/></l><r>*panahkan</r></p></e>
+      <e><p><l>ananar<s n="v"/></l><r>*mengerang</r></p></e>
+      <!-- <e><p><l>ananar<s n="v"/></l><r>teriak<s n="n"/><s n="actio"/><s n="ber"/><b/>biasa<s n="adj"/></r></p></e> -->
+      <e><p><l>ane<s n="v"/></l><r>makan<s n="vblex"/></r></p></e>
+      <e><p><l>ania<s n="v"/></l><r>*merayap</r></p></e>
+      <!-- <e><p><l>ania<s n="v"/></l><r>jalan<s n="n"/><b/>*pelahan</r></p></e> -->
+      <e><p><l>aniau<s n="v"/></l><r>ajar<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>aniau<s n="v"/></l><r>sekolah<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>aniwar<s n="v"/></l><r>*sembunyi</r></p></e>
+      <e><p><l>aniwar<s n="v"/></l><r>simpang<s n="n"/></r></p></e>
+      <e><p><l>anota<s n="v"/></l><r>tunggu<s n="vblex"/></r></p></e>
+      <e><p><l>anu<s n="v"/></l><r>jahit<s n="vblex"/></r></p></e>
+      <e><p><l>apai<s n="v"/></l><r>lari<s n="vblex"/></r></p></e>
+      <e><p><l>ape<s n="v"/></l><r>baca<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>api<s n="v"/></l><r>makan<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>ara<s n="v"/></l><r>tahan<s n="adj"/><b/>mata<s n="n"/></r></p></e> -->
+      <e><p><l>ariarir<s n="v"/></l><r>*meronda</r></p></e>
+      <e><p><l>aririarir<s n="v"/></l><r>*ronda</r></p></e>
+      <e><p><l>as<s n="v"/></l><r>renang<s n="vblex"/><s n="ber"/></r></p></e>
+      <e><p><l>as<s n="v"/></l><r>mandi<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>asiei<s n="v"/></l><r>kasih<s n="n"/><b/>tajam<s n="adj"/></r></p></e> -->
+      <e><p><l>asiwar<s n="v"/></l><r>*sandar</r></p></e>
+      <e><p><l>atore<s n="v"/></l><r>hitung<s n="vblex"/></r></p></e>
+      <e><p><l>avakir<s n="v"/></l><r>gantung<s n="vblex"/></r></p></e>
+      <e><p><l>avakir<s n="v"/></l><r>gantung<s n="vblex"/><s n="ter"/></r></p></e>
+      <e><p><l>avi<s n="v"/></l><r>lahir<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+      <e><p><l>avute<s n="v"/></l><r>jaga<s n="vblex"/></r></p></e>
+      <e><p><l>aware<s n="v"/></l><r>jahit<s n="vblex"/></r></p></e>
+      <e><p><l>awawai<s n="v"/></l><r>*ronda</r></p></e>
+      <e><p><l>awawai<s n="v"/></l><r>*meronda</r></p></e>
+      <e><p><l>awer<s n="v"/></l><r>buru<s n="vblex"/></r></p></e>
+      <e><p><l>awi baru<s n="v"/></l><r>tipu<s n="n"/><s n="peN"/><s n="sg"/></r></p></e>
+      <!-- <e><p><l>awi baru<s n="v"/></l><r>tukang<s n="n"/><b/>tipu<s n="n"/></r></p></e> -->
+      <e><p><l>awia<s n="v"/></l><r>tipu<s n="n"/></r></p></e>
+      <e><p><l>awia<s n="v"/></l><r>tipu<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>bai<s n="v"/></l><r>*gendong</r></p></e>
+      <e><p><l>bajor<s n="v"/></l><r>*sembunyi</r></p></e>
+      <e><p><l>bajor<s n="v"/></l><r>*pele</r></p></e>
+      <e><p><l>deriasi<s n="v"/></l><r>*berdekat</r></p></e>
+      <e><p><l>ena<s n="v"/></l><r>tidur<s n="vblex"/></r></p></e>
+      <e><p><l>ena mia<s n="v"/></l><r>mimpi<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>iravesie<s n="v"/></l><r>pisah<s n="adj"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>iri<s n="v"/></l><r>pilih<s n="vblex"/></r></p></e>
+      <e><p><l>isa<s n="v"/></l><r>tikam<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>isa<s n="v"/></l><r>kena<s n="vblex"/></r></p></e>
+      <e><p><l>isani<s n="v"/></l><r>tombak<s n="n"/></r></p></e>
+      <e><p><l>isani<s n="v"/></l><r>*tikam</r></p></e>
+      <!-- <e><p><l>isi<s n="v"/></l><r>balik<s n="n"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>ka<s n="v"/></l><r>buang<s n="vblex"/></r></p></e>
+      <e><p><l>kadadiri<s n="v"/></l><r>*terguling</r></p></e>
+      <e><p><l>kais<s n="v"/></l><r>habis<s n="vblex"/></r></p></e>
+      <e><p><l>kamadiwa<s n="v"/></l><r>*mendung</r></p></e>
+      <e><p><l>kamanam<s n="v"/></l><r>*pakat</r></p></e>
+      <e><p><l>kamaru<s n="v"/></l><r>mentah<s n="adj"/></r></p></e>
+      <!-- <e><p><l>kambarai<s n="v"/></l><r>tidak<s n="adv"/><b/>suka<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>kambarai<s n="v"/></l><r>tidak<s n="adv"/><b/>mau<s n="adv"/></r></p></e> -->
+      <e><p><l>kanisu<s n="v"/></l><r>*ludah</r></p></e>
+      <e><p><l>kanisu<s n="v"/></l><r>*meludah</r></p></e>
+      <!-- <e><p><l>kapori<s n="v"/></l><r>ikat<s n="n"/><b/>sampai<s n="cnjsub"/><b/>putar<s n="vblex"/></r></p></e> -->
+      <e><p><l>karamut<s n="v"/></l><r>garut<s n="vblex"/></r></p></e>
+      <e><p><l>karier<s n="v"/></l><r>*mengelam</r></p></e>
+      <e><p><l>karieri<s n="v"/></l><r>kencing<s n="vblex"/></r></p></e>
+      <e><p><l>karipe<s n="v"/></l><r>*gigit</r></p></e>
+      <e><p><l>kariria<s n="v"/></l><r>jahat<s n="adj"/></r></p></e>
+      <e><p><l>kariria<s n="v"/></l><r>buruk<s n="adj"/></r></p></e>
+      <e><p><l>karotui<s n="v"/></l><r>patah<s n="adj"/></r></p></e>
+      <e><p><l>karutarera<s n="v"/></l><r>*membelakangi</r></p></e>
+      <e><p><l>kase<s n="v"/></l><r>cukur<s n="vblex"/></r></p></e>
+      <e><p><l>kasie<s n="v"/></l><r>ikat<s n="n"/></r></p></e>
+      <e><p><l>kasiou<s n="v"/></l><r>marah<s n="adj"/></r></p></e>
+      <e><p><l>kavera<s n="v"/></l><r>kembali<s n="vblex"/></r></p></e>
+      <e><p><l>kavera<s n="v"/></l><r>balik<s n="n"/></r></p></e>
+      <e><p><l>kavio<s n="v"/></l><r>bicara<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>kavio<s n="v"/></l><r>bahasa<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>kavio<s n="v"/></l><r>kata<s n="n"/></r></p></e>
+      <e><p><l>kavio<s n="v"/></l><r>bahasa<s n="n"/></r></p></e>
+      <e><p><l>kavio manana<s n="v"/></l><r>*berbisik</r></p></e>
+      <e><p><l>kaye<s n="v"/></l><r>*berpencar</r></p></e>
+      <!-- <e><p><l>ke sasi<s n="v"/></l><r>buang<s n="vblex"/><b/>air<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <e><p><l>kerat<s n="v"/></l><r>teriak<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <!-- <e><p><l>keri<s n="v"/></l><r>buang<s n="vblex"/><b/>air<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>kiare ru<s n="v"/></l><r>cukur<s n="vblex"/><b/>kepala<s n="n"/></r></p></e> -->
+      <e><p><l>kivari<s n="v"/></l><r>ambil<s n="vblex"/></r></p></e>
+      <e><p><l>ko(re)<s n="v"/></l><r>ambil<s n="vblex"/></r></p></e>
+      <e><p><l>ko(re)<s n="v"/></l><r>pegang<s n="vblex"/></r></p></e>
+      <e><p><l>kopa<s n="v"/></l><r>lompat<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>kotar<s n="v"/></l><r>pas<s n="n"/></r></p></e>
+      <e><p><l>kotar<s n="v"/></l><r>sesak<s n="adj"/></r></p></e>
+      <e><p><l>kotar<s n="v"/></l><r>sempit<s n="adj"/></r></p></e>
+      <e><p><l>kubira<s n="v"/></l><r>mandi<s n="vblex"/></r></p></e>
+      <e><p><l>kutu<s n="v"/></l><r>gunting<s n="n"/></r></p></e>
+      <e><p><l>kutu<s n="v"/></l><r>iris<s n="n"/></r></p></e>
+      <e><p><l>mamaya<s n="v"/></l><r>malu<s n="adj"/></r></p></e>
+      <e><p><l>mamu<s n="v"/></l><r>kelahi<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>mamu<s n="v"/></l><r>tengkar<s n="vblex"/><s n="ber"/></r></p></e>
+      <e><p><l>manau<s n="v"/></l><r>sudah<s n="adv"/></r></p></e>
+      <e><p><l>manggar<s n="v"/></l><r>teriak<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>marandi<s n="v"/></l><r>hias<s n="vblex"/><s n="actv"/><s n="si"/></r></p></e>
+      <e><p><l>marariat<s n="v"/></l><r>*lembek</r></p></e>
+      <!-- <e><p><l>mararieti<s n="v"/></l><r>hangus<s n="vblex"/><b/>sekali<s n="adv"/></r></p></e> -->
+      <e><p><l>marera<s n="v"/></l><r>lumpuh<s n="adj"/></r></p></e>
+      <e><p><l>marera<s n="v"/></l><r>*lombo</r></p></e>
+      <e><p><l>marera<s n="v"/></l><r>*lembek</r></p></e>
+      <e><p><l>mari<s n="v"/></l><r>tawa<s n="n"/><s n="actio"/><s n="ter"/></r></p></e>
+      <e><p><l>mari kakumu<s n="v"/></l><r>senyum<s n="n"/></r></p></e>
+      <e><p><l>marior<s n="v"/></l><r>*capek</r></p></e>
+      <e><p><l>marova<s n="v"/></l><r>perang<s n="n"/></r></p></e>
+      <e><p><l>maroya<s n="v"/></l><r>*terguling</r></p></e>
+      <e><p><l>marura<s n="v"/></l><r>turun<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>marutu<s n="v"/></l><r>*tengelam</r></p></e>
+      <e><p><l>masa<s n="v"/></l><r>masak<s n="adj"/></r></p></e>
+      <e><p><l>masivaveri<s n="v"/></l><r>mirip<s n="adj"/></r></p></e>
+      <e><p><l>masivaveri<s n="v"/></l><r>sama<s n="adj"/></r></p></e>
+      <e><p><l>maso<s n="v"/></l><r>duduk<s n="vblex"/></r></p></e>
+      <e><p><l>maso<s n="v"/></l><r>tinggal<s n="vblex"/></r></p></e>
+      <e><p><l>masoi kariria<s n="v"/></l><r>*berdukacita</r></p></e>
+      <e><p><l>masoi koya<s n="v"/></l><r>kabung<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <!-- <e><p><l>masop<s n="v"/></l><r>patah<s n="adj"/><b/>(<s n="lpar"/></r></p></e> -->
+      <!-- <e><p><l>masubat<s n="v"/></l><r>tanah<s n="n"/><b/>lumpur<s n="n"/></r></p></e> -->
+      <e><p><l>matai<s n="v"/></l><r>takut<s n="adj"/></r></p></e>
+      <e><p><l>matitiotap<s n="v"/></l><r>hancur<s n="adj"/></r></p></e>
+      <e><p><l>maye<s n="v"/></l><r>tari<s n="n"/></r></p></e>
+      <e><p><l>mayo<s n="v"/></l><r>padam<s n="adj"/></r></p></e>
+      <e><p><l>meire<s n="v"/></l><r>main<s n="vblex"/><s n="ber"/></r></p></e>
+      <e><p><l>mesari<s n="v"/></l><r>sendiri<s n="adv"/></r></p></e>
+      <!-- <e><p><l>miri kierat<s n="v"/></l><r>tawa<s n="n"/><s n="actio"/><s n="ter"/><b/>*kras</r></p></e> -->
+      <e><p><l>mosi<s n="v"/></l><r>*kenyang</r></p></e>
+      <e><p><l>mun<s n="v"/></l><r>bunuh<s n="vblex"/></r></p></e>
+      <e><p><l>musane<s n="v"/></l><r>*menyesat</r></p></e>
+      <e><p><l>musane(u)<s n="v"/></l><r>sesal<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>na(i)<s n="v"/></l><r>ada<s n="vblex"/></r></p></e>
+      <e><p><l>na(i)<s n="v"/></l><r>ada<s n="vblex"/><s n="ber"/></r></p></e>
+      <e><p><l>na(i)<s n="v"/></l><r>tinggal<s n="vblex"/></r></p></e>
+      <e><p><l>nai<s n="v"/></l><r>hilang<s n="vblex"/></r></p></e>
+      <e><p><l>nanari<s n="v"/></l><r>bikin<s n="vblex"/></r></p></e>
+      <e><p><l>nanaripi<s n="v"/></l><r>kerja<s n="n"/></r></p></e>
+      <e><p><l>naya<s n="v"/></l><r>maki<s n="vblex"/></r></p></e>
+      <e><p><l>nei<s n="v"/></l><r>punya<s n="vblex"/></r></p></e>
+      <e><p><l>newe<s n="v"/></l><r>punya<s n="vblex"/></r></p></e>
+      <e><p><l>newi<s n="v"/></l><r>punya<s n="vblex"/></r></p></e>
+      <e><p><l>nganggat<s n="v"/></l><r>*ganggu</r></p></e>
+      <!-- <e><p><l>nomu<s n="v"/></l><r>kamu<s n="prn"/><s n="p2"/><s n="sg"/><b/>punya<s n="vblex"/></r></p></e> -->
+      <e><p><l>nunu<s n="v"/></l><r>bakar<s n="vblex"/></r></p></e>
+      <e><p><l>nunu<s n="v"/></l><r>masak<s n="adj"/></r></p></e>
+      <e><p><l>o<s n="v"/></l><r>mau<s n="adv"/></r></p></e>
+      <e><p><l>o<s n="v"/></l><r>buat<s n="vblex"/></r></p></e>
+      <e><p><l>one<s n="v"/></l><r>beri<s n="vblex"/></r></p></e>
+      <e><p><l>osa<s n="v"/></l><r>diri<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>otabia<s n="v"/></l><r>*sentak</r></p></e>
+      <e><p><l>otara<s n="v"/></l><r>*tendang</r></p></e>
+      <e><p><l>otara<s n="v"/></l><r>*mendidi</r></p></e>
+      <e><p><l>otu<s n="v"/></l><r>patah<s n="adj"/></r></p></e>
+      <e><p><l>oyo<s n="v"/></l><r>bilang<s n="vblex"/></r></p></e>
+      <e><p><l>panande(re)<s n="v"/></l><r>lupa<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>pape<s n="v"/></l><r>cuci<s n="vblex"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>papo<s n="v"/></l><r>*kemuka</r></p></e>
+      <e><p><l>papo<s n="v"/></l><r>dahulu<s n="n"/><s n="actio"/><s n="actv"/><s n="si"/></r></p></e>
+      <e><p><l>pera<s n="v"/></l><r>potong<s n="n"/></r></p></e>
+      <e><p><l>peya<s n="v"/></l><r>diam<s n="vblex"/></r></p></e>
+      <e><p><l>pi(ri)<s n="v"/></l><r>*taruh</r></p></e>
+      <!-- <e><p><l>poriri<s n="v"/></l><r>kasih<s n="n"/><b/>pecah<s n="vblex"/></r></p></e> -->
+      <e><p><l>posasa<s n="v"/></l><r>angkat<s n="vblex"/></r></p></e>
+      <e><p><l>posasiei<s n="v"/></l><r>pisah<s n="adj"/></r></p></e>
+      <e><p><l>pota<s n="v"/></l><r>sakit<s n="adj"/></r></p></e>
+      <e><p><l>pote<s n="v"/></l><r>*mancing</r></p></e>
+      <e><p><l>poya<s n="v"/></l><r>tuli<s n="adj"/></r></p></e>
+      <e><p><l>pu<s n="v"/></l><r>angkat<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>pui<s n="v"/></l><r>datang<s n="vblex"/><b/>dari<s n="pr"/><b/>belakang<s n="n"/></r></p></e> -->
+      <e><p><l>ra<s n="v"/></l><r>pergi<s n="vblex"/></r></p></e>
+      <e><p><l>ra pavi<s n="v"/></l><r>lingkar<s n="n"/></r></p></e>
+      <e><p><l>ra pavi<s n="v"/></l><r>*merayap</r></p></e>
+      <e><p><l>ra(ne)<s n="v"/></l><r>rebus<s n="vblex"/></r></p></e>
+      <e><p><l>rama<s n="v"/></l><r>datang<s n="vblex"/></r></p></e>
+      <e><p><l>rariorar<s n="v"/></l><r>*gemetar</r></p></e>
+      <e><p><l>rariorar<s n="v"/></l><r>*goyang</r></p></e>
+      <e><p><l>rau<s n="v"/></l><r>kawin<s n="vblex"/></r></p></e>
+      <e><p><l>rau<s n="v"/></l><r>nikah<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <!-- <e><p><l>rekamani<s n="v"/></l><r>*kedip<b/>mata<s n="n"/></r></p></e> -->
+      <e><p><l>repe<s n="v"/></l><r>*jilat</r></p></e>
+      <e><p><l>rera<s n="v"/></l><r>urai<s n="adj"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+      <e><p><l>rera<s n="v"/></l><r>buka<s n="vblex"/></r></p></e>
+      <e><p><l>rera<s n="v"/></l><r>lepas<s n="adj"/></r></p></e>
+      <!-- <e><p><l>resasi<s n="v"/></l><r>cuci<s n="vblex"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>rewas<s n="v"/></l><r>dingin<s n="adj"/></r></p></e>
+      <!-- <e><p><l>ri<s n="v"/></l><r>adat<s n="n"/><b/>tari<s n="n"/><s n="actio"/><s n="actv"/><b/>*pake<b/>tifa<s n="n"/></r></p></e> -->
+      <e><p><l>riesa<s n="v"/></l><r>dingin<s n="adj"/></r></p></e>
+      <e><p><l>rina<s n="v"/></l><r>tahu<s n="vblex"/></r></p></e>
+      <e><p><l>rina<s n="v"/></l><r>erti<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>rina<s n="v"/></l><r>pandai<s n="adj"/></r></p></e>
+      <e><p><l>rira<s n="v"/></l><r>*cium</r></p></e>
+      <e><p><l>ririau<s n="v"/></l><r>kawin<s n="vblex"/></r></p></e>
+      <e><p><l>ririau<s n="v"/></l><r>nikah<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>riwan<s n="v"/></l><r>ganti<s n="n"/></r></p></e>
+      <e><p><l>ro<s n="v"/></l><r>nyanyi<s n="vblex"/></r></p></e>
+      <e><p><l>roi<s n="v"/></l><r>nyanyi<s n="vblex"/></r></p></e>
+      <e><p><l>rora<s n="v"/></l><r>pukul<s n="n"/></r></p></e>
+      <e><p><l>rotu<s n="v"/></l><r>bunyi<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>royare<s n="v"/></l><r>*berguling</r></p></e>
+      <e><p><l>ruase<s n="v"/></l><r>bagi<s n="pr"/></r></p></e>
+      <e><p><l>rubatai<s n="v"/></l><r>angkat<s n="vblex"/></r></p></e>
+      <e><p><l>rukusare<s n="v"/></l><r>*ramas</r></p></e>
+      <e><p><l>rure<s n="v"/></l><r>kumpul<s n="vblex"/><s n="ber"/></r></p></e>
+      <e><p><l>ruri<s n="v"/></l><r>nyala<s n="n"/><s n="actio"/><s n="actv"/><s n="kan"/></r></p></e>
+      <e><p><l>rusasa<s n="v"/></l><r>angkat<s n="vblex"/></r></p></e>
+      <e><p><l>rut<s n="v"/></l><r>pegang<s n="vblex"/></r></p></e>
+      <e><p><l>sa<s n="v"/></l><r>naik<s n="vblex"/></r></p></e>
+      <e><p><l>sa<s n="v"/></l><r>panjat<s n="vblex"/></r></p></e>
+      <e><p><l>sa<s n="v"/></l><r>tinggal<s n="vblex"/></r></p></e>
+      <e><p><l>sa(u)<s n="v"/></l><r>panggil<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>sa(u)<s n="v"/></l><r>minta<s n="vblex"/><b/>*ijin</r></p></e> -->
+      <e><p><l>sabaya<s n="v"/></l><r>*merayap</r></p></e>
+      <e><p><l>sabaya<s n="v"/></l><r>rangkap<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>sai adidu<s n="v"/></l><r>*meratap</r></p></e>
+      <e><p><l>sai kariria<s n="v"/></l><r>*bauh</r></p></e>
+      <e><p><l>sai(s)<s n="v"/></l><r>tangis<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>sairara<s n="v"/></l><r>harum<s n="adj"/></r></p></e>
+      <e><p><l>samariari<s n="v"/></l><r>keringat<s n="n"/></r></p></e>
+      <e><p><l>samuai<s n="v"/></l><r>temu<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+      <e><p><l>samuai<s n="v"/></l><r>dapat<s n="adv"/></r></p></e>
+      <e><p><l>samuai<s n="v"/></l><r>kumpul<s n="vblex"/><s n="ber"/></r></p></e>
+      <e><p><l>sanana<s n="v"/></l><r>*tumis</r></p></e>
+      <e><p><l>sane miso<s n="v"/></l><r>cinta<s n="adj"/></r></p></e>
+      <!-- <e><p><l>sane rusara<s n="v"/></l><r>duduk<s n="vblex"/><b/>pikir<s n="n"/><s n="actio"/><s n="ber"/></r></p></e> -->
+      <e><p><l>sanepai<s n="v"/></l><r>pikir<s n="n"/></r></p></e>
+      <e><p><l>sanepaya<s n="v"/></l><r>ingat<s n="vblex"/></r></p></e>
+      <e><p><l>sanepaya<s n="v"/></l><r>pikir<s n="n"/><s n="san"/><s n="sg"/></r></p></e>
+      <e><p><l>sanevesie<s n="v"/></l><r>suka<s n="adj"/></r></p></e>
+      <e><p><l>sanevesie<s n="v"/></l><r>senang<s n="adj"/></r></p></e>
+      <e><p><l>sanevesie<s n="v"/></l><r>sukacita<s n="adj"/></r></p></e>
+      <e><p><l>sanevesie<s n="v"/></l><r>semangat<s n="n"/></r></p></e>
+      <e><p><l>sapo(p)<s n="v"/></l><r>terbang<s n="vblex"/></r></p></e>
+      <e><p><l>sarai<s n="v"/></l><r>*gali</r></p></e>
+      <e><p><l>sario<s n="v"/></l><r>*gendong</r></p></e>
+      <e><p><l>sario<s n="v"/></l><r>*pikul</r></p></e>
+      <e><p><l>sasara<s n="v"/></l><r>salah<s n="adj"/></r></p></e>
+      <e><p><l>sase<s n="v"/></l><r>*hosa</r></p></e>
+      <e><p><l>sasera<s n="v"/></l><r>cari<s n="vblex"/></r></p></e>
+      <e><p><l>sasi<s n="v"/></l><r>tahi<s n="n"/></r></p></e>
+      <e><p><l>sasi<s n="v"/></l><r>*berak</r></p></e>
+      <!-- <e><p><l>sasi<s n="v"/></l><r>(<s n="lpar"/><b/>air<s n="n"/><b/>besar<s n="adj"/></r></p></e> -->
+      <e><p><l>sasie<s n="v"/></l><r>napas<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>sasiri<s n="v"/></l><r>lihat<s n="vblex"/></r></p></e>
+      <e><p><l>sasiri<s n="v"/></l><r>tatap<s n="vblex"/></r></p></e>
+      <e><p><l>saviori<s n="v"/></l><r>siul<s n="n"/></r></p></e>
+      <e><p><l>sayor<s n="v"/></l><r>lihat<s n="vblex"/></r></p></e>
+      <e><p><l>se<s n="v"/></l><r>lihat<s n="vblex"/></r></p></e>
+      <e><p><l>sera<s n="v"/></l><r>lihat<s n="vblex"/></r></p></e>
+      <e><p><l>sesa<s n="v"/></l><r>batuk<s n="n"/></r></p></e>
+      <!-- <e><p><l>setawa<s n="v"/></l><r>jaga<s n="vblex"/><b/>lihat<s n="vblex"/></r></p></e> -->
+      <e><p><l>seva<s n="v"/></l><r>buka<s n="vblex"/></r></p></e>
+      <e><p><l>siar<s n="v"/></l><r>*siram</r></p></e>
+      <e><p><l>simarai<s n="v"/></l><r>*gosok</r></p></e>
+      <e><p><l>simarai<s n="v"/></l><r>*mencat</r></p></e>
+      <!-- <e><p><l>simarai<s n="v"/></l><r>kasih<s n="n"/><b/>cat<s n="n"/></r></p></e> -->
+      <e><p><l>siorap<s n="v"/></l><r>*pedis</r></p></e>
+      <e><p><l>siwara<s n="v"/></l><r>tumbuh<s n="vblex"/></r></p></e>
+      <e><p><l>so<s n="v"/></l><r>tiup<s n="vblex"/><s n="ber"/></r></p></e>
+      <e><p><l>so<s n="v"/></l><r>lempar<s n="vblex"/></r></p></e>
+      <e><p><l>sobata<s n="v"/></l><r>diri<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>soive<s n="v"/></l><r>mandi<s n="vblex"/></r></p></e>
+      <e><p><l>sokiare<s n="v"/></l><r>*gosok</r></p></e>
+      <e><p><l>sokiare<s n="v"/></l><r>*mencat</r></p></e>
+      <!-- <e><p><l>sokiare<s n="v"/></l><r>kasih<s n="n"/><b/>cat<s n="n"/></r></p></e> -->
+      <e><p><l>sokiase<s n="v"/></l><r>pindah<s n="vblex"/></r></p></e>
+      <e><p><l>sokiase<s n="v"/></l><r>sorong<s n="vblex"/></r></p></e>
+      <e><p><l>som<s n="v"/></l><r>sembah<s n="n"/></r></p></e>
+      <e><p><l>sonini<s n="v"/></l><r>*goyang</r></p></e>
+      <e><p><l>sora<s n="v"/></l><r>pakai<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>sore karou<s n="v"/></l><r>ingin<s n="adv"/><b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>sori<s n="v"/></l><r>tutup<s n="n"/></r></p></e>
+      <e><p><l>sosa<s n="v"/></l><r>*menggonggong</r></p></e>
+      <!-- <e><p><l>sosoya<s n="v"/></l><r>*berdering<b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>sovera<s n="v"/></l><r>kembali<s n="vblex"/></r></p></e>
+      <e><p><l>sovera<s n="v"/></l><r>balik<s n="n"/></r></p></e>
+      <e><p><l>su<s n="v"/></l><r>masuk<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>suetawana<s n="v"/></l><r>jaga<s n="vblex"/><b/>lihat<s n="vblex"/></r></p></e> -->
+      <e><p><l>sum<s n="v"/></l><r>*cium</r></p></e>
+      <e><p><l>sume<s n="v"/></l><r>rokok<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>sume<s n="v"/></l><r>*isap</r></p></e>
+      <!-- <e><p><l>suvi<s n="v"/></l><r>ke<s n="pr"/><b/>luar<s n="n"/></r></p></e> -->
+      <!-- <e><p><l>suvi<s n="v"/></l><r>pergi<s n="vblex"/><b/>dari<s n="pr"/></r></p></e> -->
+      <e><p><l>suvuan<s n="v"/></l><r>tiup<s n="vblex"/></r></p></e>
+      <e><p><l>suwasi<s n="v"/></l><r>*kupas</r></p></e>
+      <e><p><l>ta<s n="v"/></l><r>seperti<s n="pr"/></r></p></e>
+      <e><p><l>taisu<s n="v"/></l><r>gugur<s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
+      <e><p><l>tandor<s n="v"/></l><r>bangun<s n="vblex"/></r></p></e>
+      <e><p><l>tandor<s n="v"/></l><r>kaget<s n="adj"/></r></p></e>
+      <e><p><l>tandor<s n="v"/></l><r>kejut<s n="adj"/><s n="ter"/></r></p></e>
+      <e><p><l>tapu<s n="v"/></l><r>*peluk</r></p></e>
+      <e><p><l>tapu<s n="v"/></l><r>tangkap<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>tara<s n="v"/></l><r>*tokok<b/>sagu<s n="n"/></r></p></e> -->
+      <e><p><l>tare<s n="v"/></l><r>*injak</r></p></e>
+      <e><p><l>tarisu<s n="v"/></l><r>lepas<s n="adj"/><s n="ter"/></r></p></e>
+      <e><p><l>tata<s n="v"/></l><r>buka<s n="vblex"/><s n="actv"/></r></p></e>
+      <!-- <e><p><l>tatare<s n="v"/></l><r>tidak<s n="adv"/><b/>bisa<s n="adv"/></r></p></e> -->
+      <e><p><l>tatira<s n="v"/></l><r>*ngintip</r></p></e>
+      <e><p><l>tatopa<s n="v"/></l><r>cerita<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>tau tawa<s n="v"/></l><r>*tindis</r></p></e>
+      <e><p><l>tavavu<s n="v"/></l><r>tutup<s n="n"/></r></p></e>
+      <e><p><l>tavera<s n="v"/></l><r>kembali<s n="vblex"/></r></p></e>
+      <e><p><l>tavi<s n="v"/></l><r>lepas<s n="adj"/></r></p></e>
+      <e><p><l>taviar<s n="v"/></l><r>miring<s n="adj"/></r></p></e>
+      <e><p><l>tawa<s n="v"/></l><r>jatuh<s n="vblex"/></r></p></e>
+      <e><p><l>tenam<s n="v"/></l><r>hidup<s n="vblex"/></r></p></e>
+      <e><p><l>tenam<s n="v"/></l><r>hidup<s n="vblex"/><s n="subst"/><s n="ke-an"/><s n="sg"/></r></p></e>
+      <e><p><l>tera<s n="v"/></l><r>timpa<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>tera<s n="v"/></l><r>kena<s n="vblex"/></r></p></e>
+      <e><p><l>tere<s n="v"/></l><r>kena<s n="vblex"/></r></p></e>
+      <e><p><l>tipira<s n="v"/></l><r>*kutik</r></p></e>
+      <e><p><l>tipira<s n="v"/></l><r>*menjentik</r></p></e>
+      <!-- <e><p><l>tire<s n="v"/></l><r>*menggalah<b/>(<s n="lpar"/></r></p></e> -->
+      <e><p><l>tisa<s n="v"/></l><r>tusuk<s n="vblex"/></r></p></e>
+      <e><p><l>tita<s n="v"/></l><r>buka<s n="vblex"/></r></p></e>
+      <e><p><l>titiai<s n="v"/></l><r>*melikat</r></p></e>
+      <e><p><l>tob<s n="v"/></l><r>tumbuh<s n="vblex"/></r></p></e>
+      <e><p><l>topa<s n="v"/></l><r>sampai<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+      <e><p><l>tota<s n="v"/></l><r>*menjagal</r></p></e>
+      <e><p><l>tupar<s n="v"/></l><r>muncul<s n="vblex"/></r></p></e>
+      <e><p><l>turu<s n="v"/></l><r>buka<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>tut<s n="v"/></l><r>telinga<s n="n"/><b/>tuli<s n="adj"/></r></p></e> -->
+      <!-- <e><p><l>tuwa<s n="v"/></l><r>*mancing<b/>ikan<s n="n"/><b/>di<s n="pr"/><b/>*lautan<b/>biru<s n="n"/></r></p></e> -->
+      <e><p><l>ubira<s n="v"/></l><r>muncul<s n="vblex"/></r></p></e>
+      <e><p><l>unu(m)<s n="v"/></l><r>minum<s n="vblex"/></r></p></e>
+      <e><p><l>unusar<s n="v"/></l><r>paksa<s n="vblex"/></r></p></e>
+      <e><p><l>ur<s n="v"/></l><r>sarung<s n="n"/></r></p></e>
+      <!-- <e><p><l>urusara<s n="v"/></l><r>kasih<s n="n"/><b/>*tunjuh</r></p></e> -->
+      <e><p><l>usar<s n="v"/></l><r>kejar<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>uta<s n="v"/></l><r>tanya<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>utanusara<s n="v"/></l><r>tanya<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>uvietu<s n="v"/></l><r>paksa<s n="vblex"/></r></p></e>
+      <e><p><l>vabara<s n="v"/></l><r>bengkak<s n="adj"/></r></p></e>
+      <e><p><l>varakare<s n="v"/></l><r>jatuh<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+      <!-- <e><p><l>varo<s n="v"/></l><r>tidak<s n="adv"/><b/>ada<s n="vblex"/></r></p></e> -->
+      <!-- <e><p><l>vata<s n="v"/></l><r>*merebahkan<b/>diri<s n="n"/></r></p></e> -->
+      <e><p><l>vata<s n="v"/></l><r>*baring</r></p></e>
+      <e><p><l>vaune<s n="v"/></l><r>*bangunkan</r></p></e>
+      <e><p><l>vavou<s n="v"/></l><r>pulang<s n="vblex"/></r></p></e>
+      <e><p><l>vawatatar<s n="v"/></l><r>nakal<s n="adj"/></r></p></e>
+      <e><p><l>ve<s n="v"/></l><r>jadi<s n="cnjadv"/></r></p></e>
+      <e><p><l>vediadi<s n="v"/></l><r>lahir<s n="vblex"/></r></p></e>
+      <e><p><l>vedior<s n="v"/></l><r>*merintangi</r></p></e>
+      <e><p><l>vedior<s n="v"/></l><r>*pele</r></p></e>
+      <e><p><l>vekapo<s n="v"/></l><r>luka<s n="n"/></r></p></e>
+      <e><p><l>venadi<s n="v"/></l><r>*sembayang</r></p></e>
+      <e><p><l>venadi<s n="v"/></l><r>doa<s n="n"/><s n="actio"/><s n="ber"/></r></p></e>
+      <e><p><l>veprenta<s n="v"/></l><r>sampai<s n="vblex"/><s n="actv"/><s n="kan"/></r></p></e>
+      <e><p><l>veprenta<s n="v"/></l><r>*prenta</r></p></e>
+      <e><p><l>vera tua<s n="v"/></l><r>lewat<s n="vblex"/></r></p></e>
+      <e><p><l>vereri<s n="v"/></l><r>kosong<s n="adj"/></r></p></e>
+      <e><p><l>vesikop<s n="v"/></l><r>*tendang</r></p></e>
+      <e><p><l>vesusa<s n="v"/></l><r>rindu<s n="adj"/></r></p></e>
+      <e><p><l>vesusa<s n="v"/></l><r>susah<s n="adj"/></r></p></e>
+      <e><p><l>via<s n="v"/></l><r>turun<s n="vblex"/></r></p></e>
+      <e><p><l>viviare<s n="v"/></l><r>nyala<s n="n"/><s n="actio"/><s n="actv"/></r></p></e>
+      <e><p><l>vo<s n="v"/></l><r>dayung<s n="n"/></r></p></e>
+      <e><p><l>vori<s n="v"/></l><r>beli<s n="vblex"/></r></p></e>
+      <e><p><l>voru<s n="v"/></l><r>mati<s n="vblex"/></r></p></e>
+      <e><p><l>voru<s n="v"/></l><r>tinggal<s n="vblex"/><s n="actv"/></r></p></e>
+      <e><p><l>vove<s n="v"/></l><r>jual<s n="vblex"/></r></p></e>
+      <e><p><l>vui<s n="v"/></l><r>tulis<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>vuvu<s n="v"/></l><r>kasih<s n="n"/><b/>tumpah<s n="vblex"/></r></p></e> -->
+      <e><p><l>vuvu<s n="v"/></l><r>*siram</r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
